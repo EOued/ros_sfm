@@ -25,9 +25,11 @@ find_package(PCL REQUIRED COMPONENTS
 )
 
 # Torch
-list(APPEND CMAKE_PREFIX_PATH "/app/libtorch")
-find_package(Torch REQUIRED)
-
+#list(APPEND CMAKE_PREFIX_PATH "/app/libtorch")
+find_package(Torch REQUIRED HINTS $ENV{Torch_DIR})
+target_link_libraries(sfm_ros2 "${TORCH_LIBRARIES}")
+target_include_directories(sfm_ros2 PUBLIC ${TORCH_INCLUDE_DIRS})
+set_property(TARGET sfm_ros2 PROPERTY CXX_STANDARD 17)
 
 ament_export_dependencies(rosidl_default_runtime)
 
