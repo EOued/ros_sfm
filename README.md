@@ -49,3 +49,4 @@ Rviz can be used to view the topics '/sfm/cloud' and '/sfm/trajectory'.
 - /sfm/cloud(sensor_msgs/PointCloud2) (*To view semantic point cloud switch from RGB8 to Intensity and select channel label*)
 - /sfm/trajectory(nav_msgs/Path)
 - /sfm/MapGraph (sfm/MapGraph)
+test
