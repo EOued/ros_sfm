@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (sfm_ros2) JobQueued: {'identifier': 'sfm_ros2', 'dependencies': OrderedDict()}
+[0.000592] (sfm_ros2) JobStarted: {'identifier': 'sfm_ros2'}
+[0.005624] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'cmake'}
+[0.006587] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'build'}
+[0.006746] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', '--', '-j32', '-l32'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm/sfm_ros2/msg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.027188] (sfm_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.100096] (-) TimerEvent: {}
+[0.118038] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.124080] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.131541] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.140437] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.182747] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.183477] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200263] (-) TimerEvent: {}
+[0.227799] (sfm_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.271977] (sfm_ros2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.281054] (sfm_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.300418] (-) TimerEvent: {}
+[0.307679] (sfm_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.326020] (sfm_ros2) StdoutLine: {'line': b'-- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[0.328661] (sfm_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.332839] (sfm_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[0.365232] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.365336] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.365379] (sfm_ros2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.365415] (sfm_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.365451] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.365486] (sfm_ros2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.365521] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.365553] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[0.365586] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.365622] (sfm_ros2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.365658] (sfm_ros2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.365691] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.365857] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.365905] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.365941] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.365975] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.366008] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.366041] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.366074] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.366105] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.366135] (sfm_ros2) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[0.400488] (-) TimerEvent: {}
+[0.500662] (-) TimerEvent: {}
+[0.600946] (-) TimerEvent: {}
+[0.676897] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.680669] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.701105] (-) TimerEvent: {}
+[0.801359] (-) TimerEvent: {}
+[0.901650] (-) TimerEvent: {}
+[1.001926] (-) TimerEvent: {}
+[1.011394] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.015179] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.102138] (-) TimerEvent: {}
+[1.202578] (-) TimerEvent: {}
+[1.302866] (-) TimerEvent: {}
+[1.315088] (sfm_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.403049] (-) TimerEvent: {}
+[1.503341] (-) TimerEvent: {}
+[1.603619] (-) TimerEvent: {}
+[1.611453] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.703841] (-) TimerEvent: {}
+[1.804289] (-) TimerEvent: {}
+[1.904561] (-) TimerEvent: {}
+[1.922095] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):\n'}
+[1.922219] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.922261] (sfm_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.922296] (sfm_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.922331] (sfm_ros2) StderrLine: {'line': b'\n'}
+[1.922365] (sfm_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.922400] (sfm_ros2) StderrLine: {'line': b'\n'}
+[1.922433] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[1.922466] (sfm_ros2) StderrLine: {'line': b'\n'}
+[1.922498] (sfm_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.922536] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.922569] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.945071] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.945156] (sfm_ros2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (torch) does\n'}
+[1.945201] (sfm_ros2) StderrLine: {'line': b'  not match the name of the calling package (Torch).  This can lead to\n'}
+[1.945236] (sfm_ros2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.945269] (sfm_ros2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.945302] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.945334] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)\n'}
+[1.945365] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[1.945397] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.945437] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.945557] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.952970] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.004729] (-) TimerEvent: {}
+[2.104996] (-) TimerEvent: {}
+[2.179017] (sfm_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.205156] (-) TimerEvent: {}
+[2.305414] (-) TimerEvent: {}
+[2.405243] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.405473] (-) TimerEvent: {}
+[2.494776] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.495497] (sfm_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.505638] (-) TimerEvent: {}
+[2.605897] (-) TimerEvent: {}
+[2.670470] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.706055] (-) TimerEvent: {}
+[2.747857] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.756364] (sfm_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.759526] (sfm_ros2) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.806225] (-) TimerEvent: {}
+[2.808660] (sfm_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.819647] (sfm_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2\n'}
+[2.852952] (sfm_ros2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.853228] (sfm_ros2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.857551] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_sfm_ros2\n'}
+[2.906391] (-) TimerEvent: {}
+[2.997607] (sfm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[3.006461] (-) TimerEvent: {}
+[3.011088] (sfm_ros2) StdoutLine: {'line': b'writing sfm_ros2.egg-info/PKG-INFO\n'}
+[3.011232] (sfm_ros2) StdoutLine: {'line': b'writing dependency_links to sfm_ros2.egg-info/dependency_links.txt\n'}
+[3.011276] (sfm_ros2) StdoutLine: {'line': b'writing top-level names to sfm_ros2.egg-info/top_level.txt\n'}
+[3.015093] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target sfm_ros2__rosidl_generator_type_description\n'}
+[3.021937] (sfm_ros2) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.027403] (sfm_ros2) StdoutLine: {'line': b'[  6%] Built target sfm_ros2__rs\n'}
+[3.027572] (sfm_ros2) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.050667] (sfm_ros2) StdoutLine: {'line': b"reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[3.050930] (sfm_ros2) StdoutLine: {'line': b"writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[3.069125] (sfm_ros2) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_sfm_ros2_egg\n'}
+[3.106614] (-) TimerEvent: {}
+[3.206942] (-) TimerEvent: {}
+[3.237279] (sfm_ros2) StdoutLine: {'line': b'[  8%] Built target sfm_ros2__cpp\n'}
+[3.256332] (sfm_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__description.c.o\x1b[0m\n'}
+[3.256567] (sfm_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__functions.c.o\x1b[0m\n'}
+[3.256747] (sfm_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__type_support.c.o\x1b[0m\n'}
+[3.256920] (sfm_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__description.c.o\x1b[0m\n'}
+[3.257269] (sfm_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__functions.c.o\x1b[0m\n'}
+[3.257648] (sfm_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__type_support.c.o\x1b[0m\n'}
+[3.290028] (sfm_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[3.307147] (-) TimerEvent: {}
+[3.317674] (sfm_ros2) StdoutLine: {'line': b'[ 23%] Built target sfm_ros2__rosidl_generator_c\n'}
+[3.326579] (sfm_ros2) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.326848] (sfm_ros2) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.326951] (sfm_ros2) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.327041] (sfm_ros2) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.327268] (sfm_ros2) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.327568] (sfm_ros2) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.407333] (-) TimerEvent: {}
+[3.507600] (-) TimerEvent: {}
+[3.518860] (sfm_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/map_graph__type_support.cpp.o\x1b[0m\n'}
+[3.519140] (sfm_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/link__type_support.cpp.o\x1b[0m\n'}
+[3.520155] (sfm_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/map_graph__type_support.cpp.o\x1b[0m\n'}
+[3.520581] (sfm_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/link__type_support.cpp.o\x1b[0m\n'}
+[3.527421] (sfm_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/map_graph__type_support.cpp.o\x1b[0m\n'}
+[3.529115] (sfm_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/link__type_support.cpp.o\x1b[0m\n'}
+[3.533520] (sfm_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/map_graph__type_support.c.o\x1b[0m\n'}
+[3.533771] (sfm_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/link__type_support.c.o\x1b[0m\n'}
+[3.547224] (sfm_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o\x1b[0m\n'}
+[3.548465] (sfm_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.548748] (sfm_ros2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/link__type_support.cpp.o\x1b[0m\n'}
+[3.551382] (sfm_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/map_graph__type_support_c.cpp.o\x1b[0m\n'}
+[3.551632] (sfm_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/link__type_support_c.cpp.o\x1b[0m\n'}
+[3.565093] (sfm_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.573066] (sfm_ros2) StdoutLine: {'line': b'[ 65%] Built target sfm_ros2__rosidl_typesupport_c\n'}
+[3.585968] (sfm_ros2) StdoutLine: {'line': b'[ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_c\n'}
+[3.607838] (-) TimerEvent: {}
+[3.694723] (sfm_ros2) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.708105] (-) TimerEvent: {}
+[3.721418] (sfm_ros2) StdoutLine: {'line': b'[ 68%] Built target sfm_ros2__rosidl_typesupport_cpp\n'}
+[3.734964] (sfm_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o\x1b[0m\n'}
+[3.782120] (sfm_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.808209] (-) TimerEvent: {}
+[3.817121] (sfm_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.829559] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp\n'}
+[3.850025] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c\n'}
+[3.873583] (sfm_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.908425] (-) TimerEvent: {}
+[3.921185] (sfm_ros2) StdoutLine: {'line': b'[ 76%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[3.933323] (sfm_ros2) StdoutLine: {'line': b'[ 76%] Built target sfm_ros2\n'}
+[3.945238] (sfm_ros2) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.008635] (-) TimerEvent: {}
+[4.108998] (-) TimerEvent: {}
+[4.209342] (-) TimerEvent: {}
+[4.214864] (sfm_ros2) StdoutLine: {'line': b'[ 78%] Built target sfm_ros2__py\n'}
+[4.226997] (sfm_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_map_graph_s.c.o\x1b[0m\n'}
+[4.227185] (sfm_ros2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_link_s.c.o\x1b[0m\n'}
+[4.309562] (-) TimerEvent: {}
+[4.323272] (sfm_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[4.353665] (sfm_ros2) StdoutLine: {'line': b'[ 85%] Built target sfm_ros2__rosidl_generator_py\n'}
+[4.365421] (sfm_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.365785] (sfm_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.365959] (sfm_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.409786] (-) TimerEvent: {}
+[4.427502] (sfm_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.427695] (sfm_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.427998] (sfm_ros2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.445927] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_c\n'}
+[4.446193] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c\n'}
+[4.446410] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c\n'}
+[4.509941] (-) TimerEvent: {}
+[4.610209] (-) TimerEvent: {}
+[4.710513] (-) TimerEvent: {}
+[4.810845] (-) TimerEvent: {}
+[4.911160] (-) TimerEvent: {}
+[4.962386] (sfm_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1\x1b[m\x1b[K:\n'}
+[4.962548] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:41:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg/MapGraph.hpp: No such file or directory\n'}
+[4.962601] (sfm_ros2) StderrLine: {'line': b'   41 | #include \x1b[01;31m\x1b[K<msg/MapGraph.hpp>\x1b[m\x1b[K\n'}
+[4.962644] (sfm_ros2) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.962686] (sfm_ros2) StderrLine: {'line': b'compilation terminated.\n'}
+[4.982566] (sfm_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1\n'}
+[4.982874] (sfm_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2\n'}
+[4.983087] (sfm_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.985311] (sfm_ros2) CommandEnded: {'returncode': 2}
+[4.990215] (sfm_ros2) JobEnded: {'identifier': 'sfm_ros2', 'rc': 2}
+[5.000744] (-) EventReactorShutdown: {}

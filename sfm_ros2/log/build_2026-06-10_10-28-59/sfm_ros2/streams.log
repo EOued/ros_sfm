@@ -1,0 +1,37 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.049s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.049s] [  6%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[0.049s] [  6%] Built target sfm_ros2__rs
+[0.053s] [  6%] Built target ament_cmake_python_copy_sfm_ros2
+[0.193s] running egg_info
+[0.206s] writing sfm_ros2.egg-info/PKG-INFO
+[0.206s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[0.206s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[0.208s] Traceback (most recent call last):
+[0.208s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[0.208s]     sys.exit(main())
+[0.208s]              ^^^^^^
+[0.208s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[0.208s]     generate_type_hash(args.generator_arguments_file)
+[0.208s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+[0.208s]     with include_path.open('r') as include_file:
+[0.208s]          ^^^^^^^^^^^^^^^^^^^^^^
+[0.208s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[0.208s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[0.208s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.208s] FileNotFoundError: [Errno 2] No such file or directory: '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_generator_type_description/sfm_ros2/msg/Header.json'
+[0.222s] gmake[2]: *** [CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/build.make:77: rosidl_generator_type_description/sfm_ros2/msg/MapGraph.json] Error 1
+[0.222s] gmake[1]: *** [CMakeFiles/Makefile2:236: CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/all] Error 2
+[0.222s] gmake[1]: *** Waiting for unfinished jobs....
+[0.245s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.246s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.263s] [  6%] Built target ament_cmake_python_build_sfm_ros2_egg
+[0.281s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[0.281s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:6:10:[m[K [01;31m[Kfatal error: [m[Krlcpp/console.hpp: No such file or directory
+[0.281s]     6 | #include [01;31m[K"rlcpp/console.hpp"[m[K
+[0.281s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.281s] compilation terminated.
+[0.283s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[0.283s] gmake[1]: *** [CMakeFiles/Makefile2:642: CMakeFiles/sfm.dir/all] Error 2
+[0.283s] gmake: *** [Makefile:146: all] Error 2
+[0.285s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

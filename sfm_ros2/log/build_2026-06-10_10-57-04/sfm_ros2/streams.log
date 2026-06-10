@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.041s] [  2%] Built target sfm_ros2__rs
+[0.042s] [  4%] Built target sfm_ros2__rosidl_generator_type_description
+[0.046s] [  4%] Built target ament_cmake_python_copy_sfm_ros2
+[0.053s] [  6%] Built target sfm_ros2__cpp
+[0.054s] [ 23%] Built target sfm_ros2__rosidl_generator_c
+[0.068s] [ 38%] Built target sfm_ros2__rosidl_typesupport_introspection_c
+[0.068s] [ 40%] Built target sfm_ros2__rosidl_typesupport_c
+[0.068s] [ 48%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c
+[0.068s] [ 57%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp
+[0.068s] [ 65%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp
+[0.068s] [ 74%] Built target sfm_ros2__rosidl_typesupport_cpp
+[0.080s] [ 74%] Built target sfm_ros2
+[0.091s] [ 76%] Built target sfm_ros2__py
+[0.100s] [ 78%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[0.105s] [ 85%] Built target sfm_ros2__rosidl_generator_py
+[0.119s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_c
+[0.119s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c
+[0.119s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c
+[0.188s] running egg_info
+[0.202s] writing sfm_ros2.egg-info/PKG-INFO
+[0.202s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[0.202s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[0.241s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.241s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.259s] [ 97%] Built target ament_cmake_python_build_sfm_ros2_egg
+[0.265s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[0.265s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:16:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+[0.265s]    16 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+[0.265s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.265s] compilation terminated.
+[0.267s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[0.268s] gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2
+[0.268s] gmake: *** [Makefile:146: all] Error 2
+[0.270s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

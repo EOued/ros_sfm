@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.042s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.043s] [  4%] Built target sfm_ros2__rs
+[0.043s] [  6%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[0.047s] [  6%] Built target ament_cmake_python_copy_sfm_ros2
+[0.048s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksfm.h: No such file or directory
+[0.049s]     1 | #include [01;31m[K"sfm.h"[m[K
+[0.049s]       |          [01;31m[K^~~~~~~[m[K
+[0.049s] compilation terminated.
+[0.049s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[0.049s] gmake[1]: *** [CMakeFiles/Makefile2:642: CMakeFiles/sfm.dir/all] Error 2
+[0.049s] gmake[1]: *** Waiting for unfinished jobs....
+[0.185s] running egg_info
+[0.199s] writing sfm_ros2.egg-info/PKG-INFO
+[0.199s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[0.199s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[0.238s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.238s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.255s] [  6%] Built target ament_cmake_python_build_sfm_ros2_egg
+[1.197s] Traceback (most recent call last):
+[1.197s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[1.197s]     sys.exit(main())
+[1.197s]              ^^^^^^
+[1.197s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[1.197s]     generate_type_hash(args.generator_arguments_file)
+[1.197s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+[1.197s]     with include_path.open('r') as include_file:
+[1.197s]          ^^^^^^^^^^^^^^^^^^^^^^
+[1.197s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[1.197s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[1.197s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.198s] FileNotFoundError: [Errno 2] No such file or directory: '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_generator_type_description/sfm_ros2/msg/Header.json'
+[1.222s] gmake[2]: *** [CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/build.make:77: rosidl_generator_type_description/sfm_ros2/msg/MapGraph.json] Error 1
+[1.222s] gmake[1]: *** [CMakeFiles/Makefile2:236: CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/all] Error 2
+[1.223s] gmake: *** [Makefile:146: all] Error 2
+[1.225s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

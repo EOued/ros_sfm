@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (sfm_ros2) JobQueued: {'identifier': 'sfm_ros2', 'dependencies': OrderedDict()}
+[0.000628] (sfm_ros2) JobStarted: {'identifier': 'sfm_ros2'}
+[0.006035] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'cmake'}
+[0.006700] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/elioowo/ros_sfm/sfm_ros2', '-DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.018528] (sfm_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.099926] (-) TimerEvent: {}
+[0.194589] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.200084] (-) TimerEvent: {}
+[0.200324] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.207749] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.216625] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.277769] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.280697] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300267] (-) TimerEvent: {}
+[0.339067] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.355978] (sfm_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.371067] (sfm_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400429] (-) TimerEvent: {}
+[0.430302] (sfm_ros2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.441599] (sfm_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.472269] (sfm_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.492768] (sfm_ros2) StdoutLine: {'line': b'-- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[0.497631] (sfm_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.500498] (-) TimerEvent: {}
+[0.505942] (sfm_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[0.540346] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.540452] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.540500] (sfm_ros2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.540538] (sfm_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.540575] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.540610] (sfm_ros2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.540646] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.540681] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[0.540740] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.540775] (sfm_ros2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.540810] (sfm_ros2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.540845] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.540879] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.541054] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.541097] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.541132] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.541165] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.541199] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.541234] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.541267] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.541299] (sfm_ros2) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[0.600586] (-) TimerEvent: {}
+[0.700824] (-) TimerEvent: {}
+[0.801105] (-) TimerEvent: {}
+[0.865647] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.869436] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.901254] (-) TimerEvent: {}
+[1.001513] (-) TimerEvent: {}
+[1.101793] (-) TimerEvent: {}
+[1.202105] (-) TimerEvent: {}
+[1.209267] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.213002] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.302287] (-) TimerEvent: {}
+[1.402575] (-) TimerEvent: {}
+[1.495957] (sfm_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.502730] (-) TimerEvent: {}
+[1.602995] (-) TimerEvent: {}
+[1.703302] (-) TimerEvent: {}
+[1.793247] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.803468] (-) TimerEvent: {}
+[1.903746] (-) TimerEvent: {}
+[2.004054] (-) TimerEvent: {}
+[2.096055] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.096783] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.097575] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.098507] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.099307] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.099830] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[2.099992] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[2.100333] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[2.101107] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.101878] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.103639] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):\n'}
+[2.103681] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.103718] (sfm_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.103754] (sfm_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.103792] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.103828] (sfm_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.103863] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.103898] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[2.103932] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.103965] (sfm_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.104000] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.104035] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.104068] (-) TimerEvent: {}
+[2.126295] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[2.126392] (sfm_ros2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (torch) does\n'}
+[2.126440] (sfm_ros2) StderrLine: {'line': b'  not match the name of the calling package (Torch).  This can lead to\n'}
+[2.126476] (sfm_ros2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[2.126511] (sfm_ros2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[2.126547] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.126582] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)\n'}
+[2.126617] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[2.126652] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.126687] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.126822] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.133848] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.204261] (-) TimerEvent: {}
+[2.304497] (-) TimerEvent: {}
+[2.386881] (sfm_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):\n'}
+[2.387007] (sfm_ros2) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[2.387050] (sfm_ros2) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[2.387274] (sfm_ros2) StderrLine: {'line': b'  package.xml\n'}
+[2.387309] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.387344] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_generate_interfaces)\n'}
+[2.387379] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.387414] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.387447] (sfm_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.401576] (sfm_ros2) CommandEnded: {'returncode': 1}
+[2.404566] (-) TimerEvent: {}
+[2.422138] (sfm_ros2) JobEnded: {'identifier': 'sfm_ros2', 'rc': 1}
+[2.432766] (-) EventReactorShutdown: {}

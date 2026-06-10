@@ -1,0 +1,206 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.041s] [  2%] Built target sfm_ros2__rosidl_generator_type_description
+[0.041s] [  4%] Built target sfm_ros2__rs
+[0.046s] [  4%] Built target ament_cmake_python_copy_sfm_ros2
+[0.053s] [  6%] Built target sfm_ros2__cpp
+[0.054s] [ 23%] Built target sfm_ros2__rosidl_generator_c
+[0.067s] [ 31%] Built target sfm_ros2__rosidl_typesupport_c
+[0.067s] [ 40%] Built target sfm_ros2__rosidl_typesupport_introspection_c
+[0.068s] [ 57%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp
+[0.068s] [ 57%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c
+[0.068s] [ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp
+[0.068s] [ 74%] Built target sfm_ros2__rosidl_typesupport_cpp
+[0.079s] [ 74%] Built target sfm_ros2
+[0.091s] [ 76%] Built target sfm_ros2__py
+[0.100s] [ 78%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[0.105s] [ 85%] Built target sfm_ros2__rosidl_generator_py
+[0.118s] [ 89%] Built target sfm_ros2_s__rosidl_typesupport_c
+[0.119s] [ 93%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c
+[0.119s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c
+[0.187s] running egg_info
+[0.200s] writing sfm_ros2.egg-info/PKG-INFO
+[0.200s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[0.200s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[0.239s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.239s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[0.257s] [ 97%] Built target ament_cmake_python_build_sfm_ros2_egg
+[16.106s] [100%] [32m[1mLinking CXX executable sfm[0m
+[17.366s] /usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[17.377s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[17.790s] [100%] Built target sfm
+[17.801s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[17.807s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2
+[17.815s] -- Install configuration: ""
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/rosidl_interfaces/sfm_ros2
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.json
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.json
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__functions.c
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.h
+[17.815s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__struct.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.c
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__struct.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__functions.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.c
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__description.c
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__functions.c
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__functions.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__description.c
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_generator_c__visibility_control.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/map_graph.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/link.h
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/library_path.sh
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/library_path.dsv
+[17.816s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_c.so
+[17.817s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_c.so" to ""
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_fastrtps_c.h
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_c.so
+[17.817s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.817s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.hpp
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__traits.hpp
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__builder.hpp
+[17.817s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__struct.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__traits.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__builder.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__struct.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/map_graph.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/link.hpp
+[17.818s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.818s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.818s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/dds_fastrtps
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.818s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so
+[17.819s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_introspection_c.h
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.c
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.c
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_introspection_c.h
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_c.so
+[17.819s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_c.so" to ""
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_c.so
+[17.819s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_c.so" to ""
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg
+[17.819s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp
+[17.819s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.cpp
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.cpp
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_cpp.so
+[17.820s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_cpp.so
+[17.820s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_cpp.so" to ""
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/pythonpath.sh
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/pythonpath.dsv
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/SOURCES.txt
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/top_level.txt
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/PKG-INFO
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/dependency_links.txt
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/__init__.py
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph.py
+[17.820s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link_s.c
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph_s.c
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link.py
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/__init__.py
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.821s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so
+[17.849s] Listing '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2'...
+[17.849s] Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/__init__.py'...
+[17.849s] Listing '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg'...
+[17.849s] Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/__init__.py'...
+[17.849s] Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link.py'...
+[17.849s] Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph.py'...
+[17.853s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so
+[17.853s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.853s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so
+[17.853s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so" to ""
+[17.853s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so
+[17.853s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so" to ""
+[17.853s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_py.so
+[17.854s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_py.so" to ""
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/rust_packages/sfm_ros2
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg.rs
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/lib.rs
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg/rmw.rs
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/build.rs
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/Cargo.toml
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.idl
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.idl
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.msg
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.msg
+[17.854s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/sfm_ros2/sfm
+[17.862s] -- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/sfm_ros2/sfm" to ""
+[17.862s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include
+[17.862s] -- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm/sfm.h
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/package_run_dependencies/sfm_ros2
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/parent_prefix_path/sfm_ros2
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/ament_prefix_path.sh
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/ament_prefix_path.dsv
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/path.sh
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/path.dsv
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.bash
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.sh
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.zsh
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.dsv
+[17.862s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/package.dsv
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/packages/sfm_ros2
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cppExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cppExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_pyExport.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_pyExport-noconfig.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake-extras.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.863s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2Config.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2Config-version.cmake
+[17.864s] -- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/package.xml
+[17.865s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2

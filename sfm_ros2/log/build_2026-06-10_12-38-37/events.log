@@ -1,0 +1,650 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (sfm_ros2) JobQueued: {'identifier': 'sfm_ros2', 'dependencies': OrderedDict()}
+[0.000253] (sfm_ros2) JobStarted: {'identifier': 'sfm_ros2'}
+[0.005185] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'cmake'}
+[0.005478] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/elioowo/ros_sfm/sfm_ros2', '-DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm/sfm_ros2/msg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.044732] (sfm_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.085171] (sfm_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.096781] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099494] (-) TimerEvent: {}
+[0.177907] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.187150] (sfm_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187384] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.187589] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.195426] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199596] (-) TimerEvent: {}
+[0.299841] (-) TimerEvent: {}
+[0.301988] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.308278] (sfm_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308550] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.308773] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.311638] (sfm_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400016] (-) TimerEvent: {}
+[0.416203] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500186] (-) TimerEvent: {}
+[0.541940] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.554220] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.568152] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.583578] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600355] (-) TimerEvent: {}
+[0.647278] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.650315] (sfm_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700516] (-) TimerEvent: {}
+[0.706107] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.721176] (sfm_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.736754] (sfm_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.796171] (sfm_ros2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.800670] (-) TimerEvent: {}
+[0.807582] (sfm_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.838549] (sfm_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.859101] (sfm_ros2) StdoutLine: {'line': b'-- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[0.864138] (sfm_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.872358] (sfm_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[0.900834] (-) TimerEvent: {}
+[0.929956] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.930077] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.930121] (sfm_ros2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.930158] (sfm_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.930200] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.930243] (sfm_ros2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.930280] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.930315] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[0.930348] (sfm_ros2) StderrLine: {'line': b'\n'}
+[0.930381] (sfm_ros2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.930415] (sfm_ros2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.930448] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.930481] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.930516] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.930549] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.930582] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.930634] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.930667] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.930699] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.930911] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.930956] (sfm_ros2) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.001027] (-) TimerEvent: {}
+[1.101333] (-) TimerEvent: {}
+[1.170088] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.170305] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.201481] (-) TimerEvent: {}
+[1.301780] (-) TimerEvent: {}
+[1.402178] (-) TimerEvent: {}
+[1.502511] (-) TimerEvent: {}
+[1.602776] (-) TimerEvent: {}
+[1.703116] (-) TimerEvent: {}
+[1.803490] (-) TimerEvent: {}
+[1.903819] (-) TimerEvent: {}
+[2.004281] (-) TimerEvent: {}
+[2.104660] (-) TimerEvent: {}
+[2.193656] (sfm_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.204837] (-) TimerEvent: {}
+[2.206969] (sfm_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[2.252885] (sfm_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.254569] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.299229] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.301623] (sfm_ros2) StdoutLine: {'line': b'-- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  \n'}
+[2.304999] (-) TimerEvent: {}
+[2.312952] (sfm_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[2.328046] (sfm_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[2.405204] (-) TimerEvent: {}
+[2.505568] (-) TimerEvent: {}
+[2.605860] (-) TimerEvent: {}
+[2.639724] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.643551] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.706015] (-) TimerEvent: {}
+[2.806317] (-) TimerEvent: {}
+[2.906505] (-) TimerEvent: {}
+[2.942569] (sfm_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.006603] (-) TimerEvent: {}
+[3.106851] (-) TimerEvent: {}
+[3.207496] (-) TimerEvent: {}
+[3.255111] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.307673] (-) TimerEvent: {}
+[3.407961] (-) TimerEvent: {}
+[3.508241] (-) TimerEvent: {}
+[3.559505] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.560161] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.560917] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.561655] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.562477] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.563353] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.563657] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[3.563901] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[3.564583] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.565397] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.566205] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.566961] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.567823] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.568601] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.569495] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.570376] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.571164] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.571970] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.572868] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.573668] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.574275] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[3.574538] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[3.574817] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[3.575654] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.576447] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.578302] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):\n'}
+[3.578349] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.578385] (sfm_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.578420] (sfm_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.578453] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.578488] (sfm_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.578520] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.578553] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[3.578585] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.578617] (sfm_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.578650] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.578683] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.584578] (sfm_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.601493] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.601534] (sfm_ros2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (torch) does\n'}
+[3.601568] (sfm_ros2) StderrLine: {'line': b'  not match the name of the calling package (Torch).  This can lead to\n'}
+[3.601602] (sfm_ros2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[3.601636] (sfm_ros2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.601669] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.601701] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)\n'}
+[3.601734] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[3.601768] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.601801] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.601834] (sfm_ros2) StdoutLine: {'line': b'-- Found torch: /home/elioowo/libraries/libtorch/lib/libtorch.so  \n'}
+[3.604159] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.608319] (-) TimerEvent: {}
+[3.622725] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.708480] (-) TimerEvent: {}
+[3.808742] (-) TimerEvent: {}
+[3.909007] (-) TimerEvent: {}
+[4.009322] (-) TimerEvent: {}
+[4.086101] (sfm_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[4.109494] (-) TimerEvent: {}
+[4.209771] (-) TimerEvent: {}
+[4.310048] (-) TimerEvent: {}
+[4.410353] (-) TimerEvent: {}
+[4.510672] (-) TimerEvent: {}
+[4.610938] (-) TimerEvent: {}
+[4.711213] (-) TimerEvent: {}
+[4.727110] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.811381] (-) TimerEvent: {}
+[4.911667] (-) TimerEvent: {}
+[4.980071] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.983157] (sfm_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.011826] (-) TimerEvent: {}
+[5.080888] (sfm_ros2) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.111992] (-) TimerEvent: {}
+[5.212294] (-) TimerEvent: {}
+[5.312471] (-) TimerEvent: {}
+[5.378663] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.412623] (-) TimerEvent: {}
+[5.470027] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.480940] (sfm_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.484594] (sfm_ros2) StdoutLine: {'line': b'-- Configuring done (5.5s)\n'}
+[5.512782] (-) TimerEvent: {}
+[5.534655] (sfm_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.545540] (sfm_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2\n'}
+[5.563112] (sfm_ros2) CommandEnded: {'returncode': 0}
+[5.563343] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'build'}
+[5.563358] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', '--', '-j32', '-l32'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm/sfm_ros2/msg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.597405] (sfm_ros2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.597543] (sfm_ros2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.601803] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_sfm_ros2\n'}
+[5.612947] (-) TimerEvent: {}
+[5.713190] (-) TimerEvent: {}
+[5.742040] (sfm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[5.742546] (sfm_ros2) StdoutLine: {'line': b'creating sfm_ros2.egg-info\n'}
+[5.747932] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target sfm_ros2__rosidl_generator_type_description\n'}
+[5.754450] (sfm_ros2) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.755499] (sfm_ros2) StdoutLine: {'line': b'writing sfm_ros2.egg-info/PKG-INFO\n'}
+[5.755608] (sfm_ros2) StdoutLine: {'line': b'writing dependency_links to sfm_ros2.egg-info/dependency_links.txt\n'}
+[5.755744] (sfm_ros2) StdoutLine: {'line': b'writing top-level names to sfm_ros2.egg-info/top_level.txt\n'}
+[5.755831] (sfm_ros2) StdoutLine: {'line': b"writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[5.760534] (sfm_ros2) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.769413] (sfm_ros2) StdoutLine: {'line': b'[  8%] Built target sfm_ros2__rs\n'}
+[5.794670] (sfm_ros2) StdoutLine: {'line': b"reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[5.795017] (sfm_ros2) StdoutLine: {'line': b"writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[5.813268] (-) TimerEvent: {}
+[5.813462] (sfm_ros2) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_sfm_ros2_egg\n'}
+[5.913477] (-) TimerEvent: {}
+[5.957028] (sfm_ros2) StdoutLine: {'line': b'[  8%] Built target sfm_ros2__cpp\n'}
+[5.977072] (sfm_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__description.c.o\x1b[0m\n'}
+[5.977387] (sfm_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__functions.c.o\x1b[0m\n'}
+[5.977481] (sfm_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__type_support.c.o\x1b[0m\n'}
+[5.977654] (sfm_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__description.c.o\x1b[0m\n'}
+[5.977834] (sfm_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__functions.c.o\x1b[0m\n'}
+[5.978023] (sfm_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__type_support.c.o\x1b[0m\n'}
+[6.009998] (sfm_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[6.013638] (-) TimerEvent: {}
+[6.035385] (sfm_ros2) StdoutLine: {'line': b'[ 23%] Built target sfm_ros2__rosidl_generator_c\n'}
+[6.042334] (sfm_ros2) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.042533] (sfm_ros2) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.042587] (sfm_ros2) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.042778] (sfm_ros2) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.043024] (sfm_ros2) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.043252] (sfm_ros2) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.113805] (-) TimerEvent: {}
+[6.214126] (-) TimerEvent: {}
+[6.222936] (sfm_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/map_graph__type_support.cpp.o\x1b[0m\n'}
+[6.223149] (sfm_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/link__type_support.cpp.o\x1b[0m\n'}
+[6.224089] (sfm_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/map_graph__type_support.cpp.o\x1b[0m\n'}
+[6.224320] (sfm_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/link__type_support.cpp.o\x1b[0m\n'}
+[6.231055] (sfm_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/link__type_support.cpp.o\x1b[0m\n'}
+[6.231988] (sfm_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/map_graph__type_support.cpp.o\x1b[0m\n'}
+[6.235376] (sfm_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/map_graph__type_support.c.o\x1b[0m\n'}
+[6.235583] (sfm_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/link__type_support.c.o\x1b[0m\n'}
+[6.249372] (sfm_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.254392] (sfm_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o\x1b[0m\n'}
+[6.254549] (sfm_ros2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/map_graph__type_support_c.cpp.o\x1b[0m\n'}
+[6.254694] (sfm_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/link__type_support.cpp.o\x1b[0m\n'}
+[6.255590] (sfm_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/link__type_support_c.cpp.o\x1b[0m\n'}
+[6.265124] (sfm_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.274976] (sfm_ros2) StdoutLine: {'line': b'[ 65%] Built target sfm_ros2__rosidl_typesupport_c\n'}
+[6.284961] (sfm_ros2) StdoutLine: {'line': b'[ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_c\n'}
+[6.314369] (-) TimerEvent: {}
+[6.396826] (sfm_ros2) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.414478] (-) TimerEvent: {}
+[6.423427] (sfm_ros2) StdoutLine: {'line': b'[ 68%] Built target sfm_ros2__rosidl_typesupport_cpp\n'}
+[6.437242] (sfm_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o\x1b[0m\n'}
+[6.477393] (sfm_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.514584] (-) TimerEvent: {}
+[6.522493] (sfm_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.524436] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp\n'}
+[6.553953] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c\n'}
+[6.583452] (sfm_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.614667] (-) TimerEvent: {}
+[6.630959] (sfm_ros2) StdoutLine: {'line': b'[ 76%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[6.643167] (sfm_ros2) StdoutLine: {'line': b'[ 76%] Built target sfm_ros2\n'}
+[6.655236] (sfm_ros2) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.714877] (-) TimerEvent: {}
+[6.815220] (-) TimerEvent: {}
+[6.912774] (sfm_ros2) StdoutLine: {'line': b'[ 78%] Built target sfm_ros2__py\n'}
+[6.915423] (-) TimerEvent: {}
+[6.924768] (sfm_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_map_graph_s.c.o\x1b[0m\n'}
+[6.924945] (sfm_ros2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_link_s.c.o\x1b[0m\n'}
+[7.010889] (sfm_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library libsfm_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[7.015640] (-) TimerEvent: {}
+[7.041935] (sfm_ros2) StdoutLine: {'line': b'[ 85%] Built target sfm_ros2__rosidl_generator_py\n'}
+[7.054078] (sfm_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.054383] (sfm_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.054616] (sfm_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.115857] (-) TimerEvent: {}
+[7.116086] (sfm_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.116243] (sfm_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.116758] (sfm_ros2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.134918] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_c\n'}
+[7.135103] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c\n'}
+[7.135178] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c\n'}
+[7.216069] (-) TimerEvent: {}
+[7.316433] (-) TimerEvent: {}
+[7.416782] (-) TimerEvent: {}
+[7.517150] (-) TimerEvent: {}
+[7.617513] (-) TimerEvent: {}
+[7.717882] (-) TimerEvent: {}
+[7.818251] (-) TimerEvent: {}
+[7.918548] (-) TimerEvent: {}
+[8.018914] (-) TimerEvent: {}
+[8.119292] (-) TimerEvent: {}
+[8.219657] (-) TimerEvent: {}
+[8.320050] (-) TimerEvent: {}
+[8.420381] (-) TimerEvent: {}
+[8.520737] (-) TimerEvent: {}
+[8.621099] (-) TimerEvent: {}
+[8.721437] (-) TimerEvent: {}
+[8.821815] (-) TimerEvent: {}
+[8.922183] (-) TimerEvent: {}
+[9.022503] (-) TimerEvent: {}
+[9.122836] (-) TimerEvent: {}
+[9.223183] (-) TimerEvent: {}
+[9.323549] (-) TimerEvent: {}
+[9.423863] (-) TimerEvent: {}
+[9.524207] (-) TimerEvent: {}
+[9.624559] (-) TimerEvent: {}
+[9.724917] (-) TimerEvent: {}
+[9.825248] (-) TimerEvent: {}
+[9.925584] (-) TimerEvent: {}
+[10.025929] (-) TimerEvent: {}
+[10.126279] (-) TimerEvent: {}
+[10.226660] (-) TimerEvent: {}
+[10.327038] (-) TimerEvent: {}
+[10.427414] (-) TimerEvent: {}
+[10.527776] (-) TimerEvent: {}
+[10.628145] (-) TimerEvent: {}
+[10.728515] (-) TimerEvent: {}
+[10.828902] (-) TimerEvent: {}
+[10.903965] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:137:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.904146] (sfm_ros2) StderrLine: {'line': b'  137 | void semanticSfm::sfmCallBack_(const sensor_msgs::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K::SharedPtr rgb, const sensor_msgs::Image::SharedPtr depthMap, const sensor_msgs::CameraInfo::SharedPtr cameraIntrensics, const nav_msgs::Odometry::SharedPtr cameraExtrensics)\n'}
+[10.904216] (sfm_ros2) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.904280] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:137:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Krgb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.904344] (sfm_ros2) StderrLine: {'line': b'  137 | void semanticSfm::sfmCallBack_(const sensor_msgs::Image::SharedPtr \x1b[01;31m\x1b[Krgb\x1b[m\x1b[K, const sensor_msgs::Image::SharedPtr depthMap, const sensor_msgs::CameraInfo::SharedPtr cameraIntrensics, const nav_msgs::Odometry::SharedPtr cameraExtrensics)\n'}
+[10.904407] (sfm_ros2) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.904468] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:137:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krgb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.904530] (sfm_ros2) StderrLine: {'line': b'  137 | void semanticSfm::sfmCallBack_\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::Image::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Krgb\x1b[m\x1b[K, const sensor_msgs::Image::SharedPtr depthMap, const sensor_msgs::CameraInfo::SharedPtr cameraIntrensics, const nav_msgs::Odometry::SharedPtr cameraExtrensics)\n'}
+[10.904593] (sfm_ros2) StderrLine: {'line': b'      |                               \x1b[34m\x1b[K~\x1b[m\x1b[K                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[10.904655] (sfm_ros2) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[10.904716] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:137:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Krgb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.904790] (sfm_ros2) StderrLine: {'line': b'  137 | void semanticSfm::sfmCallBack_(const sensor_msgs::Image::SharedPtr \x1b[01;31m\x1b[Krgb\x1b[m\x1b[K, const sensor_msgs::Image::SharedPtr depthMap, const sensor_msgs::CameraInfo::SharedPtr cameraIntrensics, const nav_msgs::Odometry::SharedPtr cameraExtrensics)\n'}
+[10.904859] (sfm_ros2) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.929102] (-) TimerEvent: {}
+[11.029455] (-) TimerEvent: {}
+[11.129832] (-) TimerEvent: {}
+[11.230087] (-) TimerEvent: {}
+[11.330484] (-) TimerEvent: {}
+[11.430742] (-) TimerEvent: {}
+[11.462748] (sfm_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[11.463049] (sfm_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[11.463455] (sfm_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:19\x1b[m\x1b[K,\n'}
+[11.463535] (sfm_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1\x1b[m\x1b[K:\n'}
+[11.463606] (sfm_ros2) StderrLine: {'line': b'/opt/ros/jazzy/include/message_filters/message_filters/signal9.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(C&) \x1b[35m\x1b[K[with C = const std::_Bind<void (semanticSfm::*(semanticSfm*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.463854] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:298:31:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::\x1b[01;32m\x1b[KregisterCallback\x1b[m\x1b[K(const C&) \x1b[35m\x1b[K[with C = std::_Bind<void (semanticSfm::*(semanticSfm*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.463935] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:34:28:\x1b[m\x1b[K   required from here\n'}
+[11.464001] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M0ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M1ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M2ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M3ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M4ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M5ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M6ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M7ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M8ConstPtr&>(std::_Bind_helper<false, const std::_Bind<void (semanticSfm::*(semanticSfm*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.464097] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464161] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.464223] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464284] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464346] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464407] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464470] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464531] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464592] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464653] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464716] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464777] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464838] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.464902] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.464963] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.465023] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.465083] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.465145] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.465207] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) \x1b[35m\x1b[K[with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.465279] (sfm_ros2) StderrLine: {'line': b'  170 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)\n'}
+[11.465341] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.465402] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, const std::_Bind<void (semanticSfm::*(semanticSfm*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.465476] (sfm_ros2) StderrLine: {'line': b'  170 |   Connection addCallback(\x1b[01;36m\x1b[Kconst std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback\x1b[m\x1b[K)\n'}
+[11.465537] (sfm_ros2) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[11.465602] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1)) \x1b[35m\x1b[K[with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.465667] (sfm_ros2) StderrLine: {'line': b'  180 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1))\n'}
+[11.465730] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.465791] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.465853] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 2)\n'}
+[11.465914] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.465975] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.466035] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466094] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466154] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466215] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466467] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466528] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466568] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466608] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466646] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466683] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466719] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466753] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466789] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.466823] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.466857] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.466896] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.466932] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1)) \x1b[35m\x1b[K[with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.466972] (sfm_ros2) StderrLine: {'line': b'  180 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1))\n'}
+[11.467008] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.467042] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.467092] (sfm_ros2) StderrLine: {'line': b'  186 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2))\n'}
+[11.467130] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.467165] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.467204] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 3)\n'}
+[11.467239] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467276] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.467310] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467345] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467379] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467414] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467448] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467483] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467517] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467551] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467586] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467620] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467655] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467689] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467724] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.467758] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.467793] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.467830] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.467866] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.467906] (sfm_ros2) StderrLine: {'line': b'  186 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2))\n'}
+[11.467941] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.467976] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.468015] (sfm_ros2) StderrLine: {'line': b'  192 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3))\n'}
+[11.468051] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.468085] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.468121] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 4)\n'}
+[11.468155] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468190] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.468225] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468259] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468292] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468325] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468359] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468393] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468427] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468462] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468495] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468529] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468562] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468596] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468630] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.468664] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.468697] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.468734] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.468770] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.468808] (sfm_ros2) StderrLine: {'line': b'  192 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3))\n'}
+[11.468843] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.468878] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.468919] (sfm_ros2) StderrLine: {'line': b'  198 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4))\n'}
+[11.468954] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.468988] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.469024] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 5)\n'}
+[11.469063] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469098] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.469131] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469165] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469197] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469232] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469266] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469299] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469333] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469366] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469400] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469434] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469467] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469501] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469534] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469567] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.469600] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.469635] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.469670] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.469709] (sfm_ros2) StderrLine: {'line': b'  198 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4))\n'}
+[11.469744] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.469778] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.469817] (sfm_ros2) StderrLine: {'line': b'  204 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5))\n'}
+[11.469850] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.469884] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.469918] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 6)\n'}
+[11.469956] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.469989] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.470021] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470055] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470089] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470123] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470155] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470190] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470223] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470265] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470298] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470334] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470368] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470401] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470434] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470467] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470500] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.470535] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.470571] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.470610] (sfm_ros2) StderrLine: {'line': b'  204 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5))\n'}
+[11.470643] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.470677] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5, P6)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.470714] (sfm_ros2) StderrLine: {'line': b'  210 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))\n'}
+[11.470748] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.470781] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.470816] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 7)\n'}
+[11.470850] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470882] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.470915] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.470950] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.470983] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471016] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471049] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471083] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471115] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471148] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471180] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471215] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471247] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471280] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471312] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471345] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471378] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.471412] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.471446] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5, P6)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.471482] (sfm_ros2) StderrLine: {'line': b'  210 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))\n'}
+[11.471514] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.471545] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.471581] (sfm_ros2) StderrLine: {'line': b'  216 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))\n'}
+[11.471614] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.471645] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.471680] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 8)\n'}
+[11.471712] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471747] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.471779] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471812] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471843] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471878] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471910] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.471943] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.471976] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.472009] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.472041] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.472072] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.472104] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.472135] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.472168] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.472200] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.472233] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.472265] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472300] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) \x1b[35m\x1b[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472334] (sfm_ros2) StderrLine: {'line': b'  216 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))\n'}
+[11.472367] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472401] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) \x1b[35m\x1b[K[with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472444] (sfm_ros2) StderrLine: {'line': b'  222 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))\n'}
+[11.472477] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472510] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, const std::_Bind<void (semanticSfm::*(semanticSfm*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472554] (sfm_ros2) StderrLine: {'line': b'  222 |   Connection addCallback(\x1b[01;36m\x1b[Kvoid(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8)\x1b[m\x1b[K)\n'}
+[11.472587] (sfm_ros2) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472620] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472658] (sfm_ros2) StderrLine: {'line': b'  228 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1), T* t)\n'}
+[11.472691] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472723] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.472756] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472794] (sfm_ros2) StderrLine: {'line': b'  234 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2), T* t)\n'}
+[11.472826] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472859] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.472891] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2, P3), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.472931] (sfm_ros2) StderrLine: {'line': b'  240 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3), T* t)\n'}
+[11.472964] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.472997] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.473029] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2, P3, P4), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.473067] (sfm_ros2) StderrLine: {'line': b'  246 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)\n'}
+[11.473098] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473130] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.473163] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2, P3, P4, P5), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.473200] (sfm_ros2) StderrLine: {'line': b'  252 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)\n'}
+[11.473232] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473265] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.473296] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.473333] (sfm_ros2) StderrLine: {'line': b'  258 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)\n'}
+[11.473365] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473397] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.473429] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) \x1b[35m\x1b[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.473468] (sfm_ros2) StderrLine: {'line': b'  264 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)\n'}
+[11.473499] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473530] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[11.473561] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(C&) \x1b[35m\x1b[K[with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.473595] (sfm_ros2) StderrLine: {'line': b'  270 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K( C& callback)\n'}
+[11.473627] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473657] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.473689] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 1)\n'}
+[11.473721] (sfm_ros2) StderrLine: {'line': b'  272 |     return \x1b[01;31m\x1b[KaddCallback<const M0ConstPtr&,\x1b[m\x1b[K\n'}
+[11.473753] (sfm_ros2) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.473785] (sfm_ros2) StderrLine: {'line': b'  273 | \x1b[01;31m\x1b[K                     const M1ConstPtr&,\x1b[m\x1b[K\n'}
+[11.473816] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.473845] (sfm_ros2) StderrLine: {'line': b'  274 | \x1b[01;31m\x1b[K                     const M2ConstPtr&,\x1b[m\x1b[K\n'}
+[11.473876] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.473907] (sfm_ros2) StderrLine: {'line': b'  275 | \x1b[01;31m\x1b[K                     const M3ConstPtr&,\x1b[m\x1b[K\n'}
+[11.473937] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.473969] (sfm_ros2) StderrLine: {'line': b'  276 | \x1b[01;31m\x1b[K                     const M4ConstPtr&,\x1b[m\x1b[K\n'}
+[11.474000] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.474034] (sfm_ros2) StderrLine: {'line': b'  277 | \x1b[01;31m\x1b[K                     const M5ConstPtr&,\x1b[m\x1b[K\n'}
+[11.474066] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.474098] (sfm_ros2) StderrLine: {'line': b'  278 | \x1b[01;31m\x1b[K                     const M6ConstPtr&,\x1b[m\x1b[K\n'}
+[11.474129] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.474160] (sfm_ros2) StderrLine: {'line': b'  279 | \x1b[01;31m\x1b[K                     const M7ConstPtr&,\x1b[m\x1b[K\n'}
+[11.474191] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[11.474222] (sfm_ros2) StderrLine: {'line': b'  280 | \x1b[01;31m\x1b[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))\x1b[m\x1b[K;\n'}
+[11.474261] (sfm_ros2) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.474295] (sfm_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::\x1b[01;32m\x1b[KaddCallback\x1b[m\x1b[K(C&) \x1b[35m\x1b[K[with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.474332] (sfm_ros2) StderrLine: {'line': b'  270 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K( C& callback)\n'}
+[11.474364] (sfm_ros2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.530916] (-) TimerEvent: {}
+[11.631230] (-) TimerEvent: {}
+[11.731567] (-) TimerEvent: {}
+[11.831909] (-) TimerEvent: {}
+[11.932256] (-) TimerEvent: {}
+[12.032577] (-) TimerEvent: {}
+[12.132911] (-) TimerEvent: {}
+[12.233239] (-) TimerEvent: {}
+[12.333577] (-) TimerEvent: {}
+[12.433894] (-) TimerEvent: {}
+[12.534231] (-) TimerEvent: {}
+[12.634585] (-) TimerEvent: {}
+[12.734903] (-) TimerEvent: {}
+[12.835182] (-) TimerEvent: {}
+[12.935504] (-) TimerEvent: {}
+[13.035816] (-) TimerEvent: {}
+[13.136145] (-) TimerEvent: {}
+[13.236453] (-) TimerEvent: {}
+[13.336758] (-) TimerEvent: {}
+[13.437063] (-) TimerEvent: {}
+[13.537372] (-) TimerEvent: {}
+[13.637680] (-) TimerEvent: {}
+[13.737994] (-) TimerEvent: {}
+[13.838309] (-) TimerEvent: {}
+[13.938622] (-) TimerEvent: {}
+[14.038940] (-) TimerEvent: {}
+[14.139298] (-) TimerEvent: {}
+[14.239610] (-) TimerEvent: {}
+[14.339906] (-) TimerEvent: {}
+[14.440209] (-) TimerEvent: {}
+[14.540521] (-) TimerEvent: {}
+[14.640827] (-) TimerEvent: {}
+[14.741129] (-) TimerEvent: {}
+[14.841445] (-) TimerEvent: {}
+[14.941762] (-) TimerEvent: {}
+[15.042075] (-) TimerEvent: {}
+[15.142405] (-) TimerEvent: {}
+[15.157885] (sfm_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1\n'}
+[15.158043] (sfm_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2\n'}
+[15.158253] (sfm_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.160205] (sfm_ros2) CommandEnded: {'returncode': 2}
+[15.165172] (sfm_ros2) JobEnded: {'identifier': 'sfm_ros2', 'rc': 2}
+[15.175630] (-) EventReactorShutdown: {}

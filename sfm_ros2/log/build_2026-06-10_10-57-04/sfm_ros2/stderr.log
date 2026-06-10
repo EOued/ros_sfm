@@ -1,0 +1,8 @@
+In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:16:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+   16 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

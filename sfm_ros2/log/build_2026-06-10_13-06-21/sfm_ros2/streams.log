@@ -1,0 +1,725 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/elioowo/ros_sfm/sfm_ros2 -DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.111s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.325s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.456s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.582s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.691s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.768s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.843s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.855s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.886s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.906s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.911s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.919s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.977s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.977s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.977s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.977s]   cmake_policy command to set the policy and suppress this warning.
+[0.977s] 
+[0.978s]   CMake variable FLANN_ROOT is set to:
+[0.978s] 
+[0.978s]     /usr
+[0.978s] 
+[0.978s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.978s]   .cmake module might still use it.
+[0.978s] Call Stack (most recent call first):
+[0.978s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.978s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.978s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.978s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.978s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.978s]   CMakeLists.txt:18 (find_package)
+[0.978s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.978s] [0m
+[0.978s] -- Found flann version 1.9.2
+[1.252s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.252s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.371s] -- Checking for module 'libusb-1.0'
+[2.380s] --   Found libusb-1.0, version 1.0.27
+[2.402s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.403s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.443s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.445s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[2.456s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.471s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[2.784s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.788s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.087s] -- Found Qhull version 8.0.2
+[3.384s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.672s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.672s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.673s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.674s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.675s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.676s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.676s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.676s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.677s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.678s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.678s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.679s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.680s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.681s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.682s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.682s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.683s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.684s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.685s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.686s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.686s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.686s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.687s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.687s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.688s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.690s] [33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):
+[3.690s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.690s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.690s]   command to set the policy and suppress this warning.
+[3.690s] 
+[3.690s]   CMake variable PCL_ROOT is set to:
+[3.690s] 
+[3.690s]     /usr
+[3.690s] 
+[3.691s]   For compatibility, CMake is ignoring the variable.
+[3.691s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.691s] [0m
+[3.696s] -- Found Threads: TRUE  
+[3.714s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.714s]   The package name passed to `find_package_handle_standard_args` (torch) does
+[3.714s]   not match the name of the calling package (Torch).  This can lead to
+[3.714s]   problems in calling code that expects `find_package` result variables
+[3.714s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.714s] Call Stack (most recent call first):
+[3.714s]   /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)
+[3.714s]   CMakeLists.txt:29 (find_package)
+[3.714s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.714s] [0m
+[3.714s] -- Found torch: /home/elioowo/libraries/libtorch/lib/libtorch.so  
+[3.716s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.735s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.194s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.087s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.199s] -- Found PythonExtra: /usr/bin/python3  
+[5.502s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.593s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.604s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.608s] -- Configuring done (5.6s)
+[5.658s] -- Generating done (0.0s)
+[5.668s] -- Build files have been written to: /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2
+[5.686s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/elioowo/ros_sfm/sfm_ros2 -DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2
+[5.686s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[5.723s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.723s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.729s] [  4%] Built target ament_cmake_python_copy_sfm_ros2
+[5.869s] running egg_info
+[5.870s] creating sfm_ros2.egg-info
+[5.873s] [  4%] Built target sfm_ros2__rosidl_generator_type_description
+[5.879s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.883s] writing sfm_ros2.egg-info/PKG-INFO
+[5.883s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[5.883s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[5.883s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[5.885s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.896s] [  8%] Built target sfm_ros2__rs
+[5.923s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[5.923s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[5.941s] [  8%] Built target ament_cmake_python_build_sfm_ros2_egg
+[6.082s] [  8%] Built target sfm_ros2__cpp
+[6.102s] [ 10%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__description.c.o[0m
+[6.102s] [ 12%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__functions.c.o[0m
+[6.103s] [ 17%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__description.c.o[0m
+[6.103s] [ 17%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[6.103s] [ 19%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__functions.c.o[0m
+[6.103s] [ 21%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[6.135s] [ 23%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_c.so[0m
+[6.160s] [ 23%] Built target sfm_ros2__rosidl_generator_c
+[6.166s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.166s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.166s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.166s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.166s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.167s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.346s] [ 38%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[6.347s] [ 40%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[6.348s] [ 42%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/link__type_support.cpp.o[0m
+[6.349s] [ 44%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/link__type_support.cpp.o[0m
+[6.356s] [ 46%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/map_graph__type_support.cpp.o[0m
+[6.356s] [ 48%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/link__type_support.cpp.o[0m
+[6.360s] [ 53%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[6.360s] [ 53%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[6.377s] [ 55%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o[0m
+[6.378s] [ 57%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/link__type_support.cpp.o[0m
+[6.379s] [ 59%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_c.so[0m
+[6.382s] [ 63%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/map_graph__type_support_c.cpp.o[0m
+[6.382s] [ 63%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/link__type_support_c.cpp.o[0m
+[6.391s] [ 65%] [32m[1mLinking C shared library libsfm_ros2__rosidl_typesupport_introspection_c.so[0m
+[6.410s] [ 65%] Built target sfm_ros2__rosidl_typesupport_c
+[6.413s] [ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_c
+[6.522s] [ 68%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_cpp.so[0m
+[6.549s] [ 68%] Built target sfm_ros2__rosidl_typesupport_cpp
+[6.563s] [ 70%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[6.602s] [ 72%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[6.648s] [ 74%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[6.648s] [ 74%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp
+[6.680s] [ 74%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c
+[6.710s] [ 76%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.758s] [ 76%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp
+[6.770s] [ 76%] Built target sfm_ros2
+[6.782s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.042s] [ 78%] Built target sfm_ros2__py
+[7.053s] [ 80%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_map_graph_s.c.o[0m
+[7.054s] [ 82%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_link_s.c.o[0m
+[7.140s] [ 85%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_py.so[0m
+[7.170s] [ 85%] Built target sfm_ros2__rosidl_generator_py
+[7.182s] [ 87%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.182s] [ 89%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.182s] [ 91%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[7.244s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so[0m
+[7.245s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so[0m
+[7.245s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.263s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_c
+[7.263s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c
+[7.263s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c
+[10.917s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K In constructor ‘[01m[KsemanticSfm::[01;32m[KsemanticSfm[m[K(rclcpp::Node::ConstSharedPtr&)[m[K’:
+[10.917s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kusing rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&[m[K’ {aka ‘[01m[Kclass std::shared_ptr<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.917s]     4 | [01;31m[KsemanticSfm[m[K::semanticSfm(rclcpp::Node::ConstSharedPtr& node)
+[10.917s]       | [01;31m[K^~~~~~~~~~~[m[K
+[10.917s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[10.917s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:72:71:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmCloud_[m[K’ should be initialized
+[10.917s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::ConstSharedPtr& [01;36m[KsfmCloud_[m[K;
+[10.917s]       |                                                                       [01;36m[K^~~~~~~~~[m[K
+[10.917s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kusing rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > > >&[m[K’ {aka ‘[01m[Kclass std::shared_ptr<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > > >&[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.917s]     4 | [01;31m[KsemanticSfm[m[K::semanticSfm(rclcpp::Node::ConstSharedPtr& node)
+[10.917s]       | [01;31m[K^~~~~~~~~~~[m[K
+[10.918s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:73:61:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmTrajectory_[m[K’ should be initialized
+[10.918s]    73 |     rclcpp::Publisher<nav_msgs::msg::Path>::ConstSharedPtr& [01;36m[KsfmTrajectory_[m[K;
+[10.918s]       |                                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.918s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kusing rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >&[m[K’ {aka ‘[01m[Kclass std::shared_ptr<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >&[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.918s]     4 | [01;31m[KsemanticSfm[m[K::semanticSfm(rclcpp::Node::ConstSharedPtr& node)
+[10.918s]       | [01;31m[K^~~~~~~~~~~[m[K
+[10.918s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:65:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmMapGraph_[m[K’ should be initialized
+[10.918s]    74 |     rclcpp::Publisher<sfm_ros2::msg::MapGraph>::ConstSharedPtr& [01;36m[KsfmMapGraph_[m[K;
+[10.918s]       |                                                                 [01;36m[K^~~~~~~~~~~~[m[K
+[10.921s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:21:71:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Node[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.921s]    21 |     sfmCloud_ = [01;31m[Knode_->create_publisher<sensor_msgs::msg::PointCloud2>("sfm/cloud", 1)[m[K;
+[10.921s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[10.921s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[10.921s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.921s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.921s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[10.921s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:5[m[K:
+[10.922s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[10.922s]    73 | [01;36m[KNode[m[K::create_publisher(
+[10.922s]       | [01;36m[K^~~~[m[K
+[10.923s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:22:66:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Node[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.923s]    22 |     sfmTrajectory_ = [01;31m[Knode_->create_publisher<nav_msgs::msg::Path>("sfm/trajectory", 1)[m[K;
+[10.923s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.923s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[10.924s]    73 | [01;36m[KNode[m[K::create_publisher(
+[10.924s]       | [01;36m[K^~~~[m[K
+[10.925s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:23:68:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Node[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.926s]    23 |     sfmMapGraph_ = [01;31m[Knode_->create_publisher<sfm_ros2::msg::MapGraph>("sfm_ros2/MapGraph", 1)[m[K;
+[10.926s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.926s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[10.926s]    73 | [01;36m[KNode[m[K::create_publisher(
+[10.926s]       | [01;36m[K^~~~[m[K
+[10.927s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:25:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Node*[m[K’} to ‘[01m[Krclcpp::Node*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.928s]    25 |     rgbImage_.subscribe([01;31m[Knode_.get()[m[K, rgb_topic_);
+[10.928s]       |                         [01;31m[K~~~~~~~~~^~[m[K
+[10.928s]       |                                  [01;31m[K|[m[K
+[10.928s]       |                                  [01;31m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type* {aka const rclcpp::Node*}[m[K
+[10.928s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:18[m[K:
+[10.928s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[10.928s]   255 |   void subscribe([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[10.928s]       |                  [01;36m[K~~~~~~~~~~~^~~~[m[K
+[10.928s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:26:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Node*[m[K’} to ‘[01m[Krclcpp::Node*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.928s]    26 |     depthMap_.subscribe([01;31m[Knode_.get()[m[K, depth_topic_);
+[10.928s]       |                         [01;31m[K~~~~~~~~~^~[m[K
+[10.928s]       |                                  [01;31m[K|[m[K
+[10.929s]       |                                  [01;31m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type* {aka const rclcpp::Node*}[m[K
+[10.929s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[10.929s]   255 |   void subscribe([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[10.929s]       |                  [01;36m[K~~~~~~~~~~~^~~~[m[K
+[10.929s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:27:42:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Node*[m[K’} to ‘[01m[Krclcpp::Node*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.929s]    27 |     cameraIntrensics_.subscribe([01;31m[Knode_.get()[m[K, intrensics_topic_);
+[10.929s]       |                                 [01;31m[K~~~~~~~~~^~[m[K
+[10.929s]       |                                          [01;31m[K|[m[K
+[10.929s]       |                                          [01;31m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type* {aka const rclcpp::Node*}[m[K
+[10.929s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[10.929s]   255 |   void subscribe([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[10.929s]       |                  [01;36m[K~~~~~~~~~~~^~~~[m[K
+[10.929s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:28:42:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Node*[m[K’} to ‘[01m[Krclcpp::Node*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.929s]    28 |     cameraExtrensics_.subscribe([01;31m[Knode_.get()[m[K, extrensics_topic_);
+[10.929s]       |                                 [01;31m[K~~~~~~~~~^~[m[K
+[10.929s]       |                                          [01;31m[K|[m[K
+[10.930s]       |                                          [01;31m[Kstd::__shared_ptr<const rclcpp::Node, __gnu_cxx::_S_atomic>::element_type* {aka const rclcpp::Node*}[m[K
+[10.930s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = nav_msgs::msg::Odometry_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[10.930s]   255 |   void subscribe([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[10.930s]       |                  [01;36m[K~~~~~~~~~~~^~~~[m[K
+[11.028s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K In member function ‘[01m[Kvoid semanticSfm::[01;32m[KsfmCallBack_[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[11.028s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::publish(sensor_msgs::msg::PointCloud2&) const[m[K’
+[11.028s]   206 |     [01;31m[Kthis->sfmCloud_->publish(finalCloud)[m[K;
+[11.028s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.028s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.028s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K:
+[11.028s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K[m[K’
+[11.028s]   414 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[11.028s]       |   [01;36m[K^~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[11.029s]   414 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[11.029s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rclcpp::SerializedMessage&) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.029s]   400 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[11.029s]       |   [01;36m[K^~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[11.029s]   400 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[11.029s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rcl_serialized_message_t&) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K[m[K’
+[11.029s]   394 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[11.029s]       |   [01;36m[K^~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[11.029s]   394 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[11.029s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.029s]   376 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.029s]       |   [01;36m[K^~~~~~~[m[K
+[11.029s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.030s] In file included from [01m[K/usr/include/c++/13/bits/move.h:37[m[K,
+[11.030s]                  from [01m[K/usr/include/c++/13/bits/new_allocator.h:36[m[K,
+[11.030s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33[m[K,
+[11.030s]                  from [01m[K/usr/include/c++/13/bits/allocator.h:46[m[K,
+[11.030s]                  from [01m[K/usr/include/c++/13/memory:65[m[K,
+[11.030s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[11.030s] /usr/include/c++/13/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using std::enable_if_t = typename std::enable_if::type [35m[K[with bool _Cond = false; _Tp = void][m[K[m[K’:
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(std::integral_constant<bool, false>::value && std::is_same<T, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::value), void> rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::[01;32m[Kpublish[m[K(const T&) [35m[K[with T = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K[m[K’
+[11.030s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29:[m[K   required from here
+[11.030s] [01m[K/usr/include/c++/13/type_traits:2610:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[11.030s]  2610 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[11.030s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.030s]   326 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[11.030s]       |   [01;36m[K^~~~~~~[m[K
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.030s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >[m[K’
+[11.030s]   206 |     [01;36m[Kthis->sfmCloud_->publish(finalCloud)[m[K;
+[11.030s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with T = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K[m[K’ (near match)
+[11.030s]   296 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.030s]       |   [01;36m[K^~~~~~~[m[K
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [35m[K[with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.030s]   242 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[11.030s]       |   [01;36m[K^~~~~~~[m[K
+[11.030s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.030s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >[m[K’
+[11.030s]   206 |     [01;36m[Kthis->sfmCloud_->publish(finalCloud)[m[K;
+[11.030s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.031s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::publish(nav_msgs::msg::Path&) const[m[K’
+[11.031s]   211 |     [01;31m[Kthis->sfmTrajectory_->publish(trajectory)[m[K;
+[11.031s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = nav_msgs::msg::Path_<std::allocator<void> >][m[K[m[K’
+[11.031s]   414 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[11.031s]       |   [01;36m[K^~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Path[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[11.031s]   414 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[11.031s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rclcpp::SerializedMessage&) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.031s]   400 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[11.031s]       |   [01;36m[K^~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Path[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[11.031s]   400 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[11.031s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rcl_serialized_message_t&) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K[m[K’
+[11.031s]   394 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[11.031s]       |   [01;36m[K^~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Path[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[11.031s]   394 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[11.031s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.031s]   376 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.031s]       |   [01;36m[K^~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.031s]   326 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[11.031s]       |   [01;36m[K^~~~~~~[m[K
+[11.031s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.031s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<nav_msgs::msg::Path_<std::allocator<void> > > >[m[K’
+[11.032s]   211 |     [01;36m[Kthis->sfmTrajectory_->publish(trajectory)[m[K;
+[11.032s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with T = nav_msgs::msg::Path_<std::allocator<void> >; MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = nav_msgs::msg::Path_<std::allocator<void> >][m[K[m[K’ (near match)
+[11.032s]   296 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.032s]       |   [01;36m[K^~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [35m[K[with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.032s]   242 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[11.032s]       |   [01;36m[K^~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.032s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<nav_msgs::msg::Path_<std::allocator<void> > > >[m[K’
+[11.032s]   211 |     [01;36m[Kthis->sfmTrajectory_->publish(trajectory)[m[K;
+[11.032s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[11.032s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::publish(sfm_ros2::msg::MapGraph&) const[m[K’
+[11.032s]   219 |     [01;31m[Kthis->sfmMapGraph_->publish(mapGraphMsg)[m[K;
+[11.032s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sfm_ros2::msg::MapGraph_<std::allocator<void> >][m[K[m[K’
+[11.032s]   414 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[11.032s]       |   [01;36m[K^~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksfm_ros2::msg::MapGraph[m[K’ {aka ‘[01m[Ksfm_ros2::msg::MapGraph_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<sfm_ros2::msg::MapGraph_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[11.032s]   414 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[11.032s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rclcpp::SerializedMessage&) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.032s]   400 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[11.032s]       |   [01;36m[K^~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksfm_ros2::msg::MapGraph[m[K’ {aka ‘[01m[Ksfm_ros2::msg::MapGraph_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[11.032s]   400 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[11.032s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.032s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const rcl_serialized_message_t&) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K[m[K’
+[11.032s]   394 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[11.032s]       |   [01;36m[K^~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksfm_ros2::msg::MapGraph[m[K’ {aka ‘[01m[Ksfm_ros2::msg::MapGraph_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[11.033s]   394 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[11.033s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.033s]   376 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.033s]       |   [01;36m[K^~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.033s]   326 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[11.033s]       |   [01;36m[K^~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.033s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksfm_ros2::msg::MapGraph_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >[m[K’
+[11.033s]   219 |     [01;36m[Kthis->sfmMapGraph_->publish(mapGraphMsg)[m[K;
+[11.033s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(const T&) [35m[K[with T = sfm_ros2::msg::MapGraph_<std::allocator<void> >; MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sfm_ros2::msg::MapGraph_<std::allocator<void> >][m[K[m[K’ (near match)
+[11.033s]   296 |   [01;36m[Kpublish[m[K(const T & msg)
+[11.033s]       |   [01;36m[K^~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*[m[K’ {aka ‘[01m[Kconst rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::[01;32m[Kpublish[m[K(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [35m[K[with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K[m[K’
+[11.033s]   242 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[11.033s]       |   [01;36m[K^~~~~~~[m[K
+[11.033s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.033s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksfm_ros2::msg::MapGraph_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >[m[K’
+[11.033s]   219 |     [01;36m[Kthis->sfmMapGraph_->publish(mapGraphMsg)[m[K;
+[11.033s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[11.587s] In file included from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:47[m[K,
+[11.587s]                  from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+[11.587s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:19[m[K:
+[11.587s] /opt/ros/jazzy/include/message_filters/message_filters/signal9.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(C&) [35m[K[with C = const semanticSfm::semanticSfm(rclcpp::Node::ConstSharedPtr&)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’:
+[11.587s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:298:31:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::[01;32m[KregisterCallback[m[K(const C&) [35m[K[with C = semanticSfm::semanticSfm(rclcpp::Node::ConstSharedPtr&)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >][m[K[m[K’
+[11.587s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:35:28:[m[K   required from here
+[11.587s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M0ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M1ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M2ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M3ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M4ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M5ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M6ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M7ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M8ConstPtr&>(std::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::ConstSharedPtr&)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)[m[K’
+[11.588s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.588s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.588s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.588s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.588s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.588s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [35m[K[with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.588s]   170 |   Connection [01;36m[KaddCallback[m[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+[11.588s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.588s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:89:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::ConstSharedPtr&)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type[m[K’ to ‘[01m[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&[m[K’
+[11.588s]   170 |   Connection addCallback([01;36m[Kconst std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback[m[K)
+[11.588s]       |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[11.588s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1)) [35m[K[with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.588s]   180 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1))
+[11.589s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.589s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.589s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 2)
+[11.589s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.589s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.589s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.589s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.589s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.589s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1)) [35m[K[with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.589s]   180 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1))
+[11.589s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.589s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2)) [35m[K[with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.589s]   186 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2))
+[11.589s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 3)
+[11.590s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.590s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.590s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.590s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.590s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2)) [35m[K[with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.590s]   186 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2))
+[11.590s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.590s]   192 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3))
+[11.590s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.590s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 4)
+[11.590s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.591s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.591s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.591s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.591s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.591s]   192 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3))
+[11.591s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.591s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.591s]   198 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4))
+[11.591s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.591s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.591s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 5)
+[11.591s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.591s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.591s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.591s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.592s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.592s]   198 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4))
+[11.592s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.592s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.592s]   204 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5))
+[11.592s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.592s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.592s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 6)
+[11.592s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.592s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.592s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.592s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.592s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.593s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.593s]   204 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5))
+[11.593s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.593s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5, P6)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.593s]   210 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+[11.593s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.593s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.593s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 7)
+[11.593s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.593s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.593s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.593s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.593s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.594s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5, P6)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.594s]   210 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+[11.594s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.594s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.594s]   216 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+[11.594s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.594s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.594s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 8)
+[11.594s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.594s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.594s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.594s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.594s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.595s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.595s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [35m[K[with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   216 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [35m[K[with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   222 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::ConstSharedPtr&)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type[m[K’ to ‘[01m[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)[m[K’
+[11.595s]   222 |   Connection addCallback([01;36m[Kvoid(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8)[m[K)
+[11.595s]       |                          [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1), T*) [35m[K[with P0 = T; P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   228 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1), T* t)
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   234 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2), T* t)
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2, P3), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   240 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3), T* t)
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2, P3, P4), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   246 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)
+[11.595s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.595s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.595s]   252 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)
+[11.596s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.596s]   258 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)
+[11.596s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [35m[K[with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.596s]   264 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)
+[11.596s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(C&) [35m[K[with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.596s]   270 |   Connection [01;36m[KaddCallback[m[K( C& callback)
+[11.596s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.596s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 1)
+[11.596s]   272 |     return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[11.596s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.596s]   273 | [01;31m[K                     const M1ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   274 | [01;31m[K                     const M2ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   275 | [01;31m[K                     const M3ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   276 | [01;31m[K                     const M4ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   277 | [01;31m[K                     const M5ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   278 | [01;31m[K                     const M6ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.596s]   279 | [01;31m[K                     const M7ConstPtr&,[m[K
+[11.596s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[11.597s]   280 | [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[11.597s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.597s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::[01;32m[KaddCallback[m[K(C&) [35m[K[with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K[m[K’
+[11.597s]   270 |   Connection [01;36m[KaddCallback[m[K( C& callback)
+[11.597s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[12.905s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[12.905s]                  from [01m[K/usr/include/c++/13/memory:66[m[K:
+[12.905s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = semanticSfm; _Args = {shared_ptr<rclcpp::Node>&}][m[K[m[K’:
+[12.905s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = semanticSfm; _Args = {std::shared_ptr<rclcpp::Node>&}; allocator_type = std::allocator<void>][m[K[m[K’
+[12.905s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = semanticSfm; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[12.905s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = semanticSfm; _Alloc = std::allocator<void>; _Args = {std::shared_ptr<rclcpp::Node>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[12.906s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = semanticSfm; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[12.906s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = semanticSfm][m[K[m[K’
+[12.906s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = semanticSfm; _Args = {shared_ptr<rclcpp::Node>&}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = semanticSfm][m[K[m[K’
+[12.906s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:229:45:[m[K   required from here
+[12.906s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Krclcpp::Node::ConstSharedPtr&[m[K’ {aka ‘[01m[Kstd::shared_ptr<const rclcpp::Node>&[m[K’} to an rvalue of type ‘[01m[Krclcpp::Node::ConstSharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<const rclcpp::Node>[m[K’}
+[12.906s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[12.906s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.906s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K:
+[12.906s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:351:9:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Yp = rclcpp::Node; <template-parameter-2-2> = void; _Tp = const rclcpp::Node][m[K[m[K’
+[12.906s]   351 |         [01;36m[Kshared_ptr[m[K(const shared_ptr<_Yp>& __r) noexcept
+[12.906s]       |         [01;36m[K^~~~~~~~~~[m[K
+[12.906s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KsemanticSfm::[01;32m[KsemanticSfm[m[K(rclcpp::Node::ConstSharedPtr&)[m[K’
+[12.906s]     4 | semanticSfm::semanticSfm([01;36m[Krclcpp::Node::ConstSharedPtr& node[m[K)
+[12.906s]       |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[15.268s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[15.269s] gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2
+[15.269s] gmake: *** [Makefile:146: all] Error 2
+[15.271s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

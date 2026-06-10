@@ -1,0 +1,66 @@
+[0.006s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/elioowo/ros_sfm/sfm_ros2 -DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2
+[0.016s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.204s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.207s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.569s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.569s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.569s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.569s]   cmake_policy command to set the policy and suppress this warning.
+[0.569s] 
+[0.569s]   CMake variable FLANN_ROOT is set to:
+[0.569s] 
+[0.569s]     /usr
+[0.569s] 
+[0.569s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.569s]   .cmake module might still use it.
+[0.569s] Call Stack (most recent call first):
+[0.569s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.569s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.569s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.569s]   CMakeLists.txt:19 (find_package)
+[0.570s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.570s] [0m
+[0.570s] -- Found flann version 1.9.2
+[0.570s] -- Found Qhull version 8.0.2
+[1.463s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.467s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.772s] -- looking for PCL_COMMON
+[1.772s] -- looking for PCL_OCTREE
+[1.773s] -- looking for PCL_IO
+[1.773s] -- looking for PCL_KDTREE
+[1.773s] -- looking for PCL_SEARCH
+[1.773s] -- looking for PCL_SURFACE
+[1.774s] -- looking for PCL_FILTERS
+[1.774s] -- looking for PCL_2D
+[1.774s] -- looking for PCL_FEATURES
+[1.774s] -- looking for PCL_REGISTRATION
+[1.774s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.775s] -- looking for PCL_GEOMETRY
+[1.775s] -- looking for PCL_ML
+[1.775s] -- looking for PCL_SEGMENTATION
+[1.775s] -- looking for PCL_VISUALIZATION
+[1.796s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.796s]   The package name passed to `find_package_handle_standard_args` (torch) does
+[1.796s]   not match the name of the calling package (Torch).  This can lead to
+[1.796s]   problems in calling code that expects `find_package` result variables
+[1.796s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.796s] Call Stack (most recent call first):
+[1.796s]   /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)
+[1.796s]   CMakeLists.txt:26 (find_package)
+[1.796s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.796s] [0m
+[1.796s] -- Found torch: /home/elioowo/libraries/libtorch/lib/libtorch.so  
+[1.810s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.869s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.872s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.872s]   rosidl_generate_interfaces() the passed file 'msg/MapGraph.msg' doesn't
+[1.872s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.872s]   '/home/elioowo/ros_sfm/sfm_ros2'
+[1.872s] Call Stack (most recent call first):
+[1.872s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[1.872s] 
+[1.872s] [0m
+[1.872s] -- Configuring incomplete, errors occurred!
+[1.882s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/elioowo/ros_sfm/sfm_ros2 -DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2

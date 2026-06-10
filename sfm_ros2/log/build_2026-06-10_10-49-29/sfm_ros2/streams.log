@@ -1,0 +1,443 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.026s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.182s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.183s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.271s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.280s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.306s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.324s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.327s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.331s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.363s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.363s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.364s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.364s]   cmake_policy command to set the policy and suppress this warning.
+[0.364s] 
+[0.364s]   CMake variable FLANN_ROOT is set to:
+[0.364s] 
+[0.364s]     /usr
+[0.364s] 
+[0.364s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.364s]   .cmake module might still use it.
+[0.364s] Call Stack (most recent call first):
+[0.364s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.364s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.364s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.364s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.364s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.364s]   CMakeLists.txt:18 (find_package)
+[0.364s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.364s] [0m
+[0.364s] -- Found flann version 1.9.2
+[0.682s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.686s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.011s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.015s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.299s] -- Found Qhull version 8.0.2
+[1.604s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.900s] [33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):
+[1.900s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.900s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.900s]   command to set the policy and suppress this warning.
+[1.900s] 
+[1.900s]   CMake variable PCL_ROOT is set to:
+[1.900s] 
+[1.900s]     /usr
+[1.900s] 
+[1.900s]   For compatibility, CMake is ignoring the variable.
+[1.900s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.900s] [0m
+[1.922s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.922s]   The package name passed to `find_package_handle_standard_args` (torch) does
+[1.922s]   not match the name of the calling package (Torch).  This can lead to
+[1.922s]   problems in calling code that expects `find_package` result variables
+[1.923s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.923s] Call Stack (most recent call first):
+[1.923s]   /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)
+[1.923s]   CMakeLists.txt:29 (find_package)
+[1.923s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.923s] [0m
+[1.923s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.930s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.160s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.470s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.640s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.716s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.724s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.727s] -- Configuring done (2.7s)
+[2.777s] -- Generating done (0.0s)
+[2.787s] -- Build files have been written to: /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2
+[2.819s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.819s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.824s] [  4%] Built target ament_cmake_python_copy_sfm_ros2
+[2.963s] running egg_info
+[2.966s] [  4%] Built target sfm_ros2__rosidl_generator_type_description
+[2.972s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.976s] writing sfm_ros2.egg-info/PKG-INFO
+[2.976s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[2.976s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[2.979s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.991s] [  8%] Built target sfm_ros2__rs
+[3.016s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[3.016s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[3.034s] [  8%] Built target ament_cmake_python_build_sfm_ros2_egg
+[3.175s] [  8%] Built target sfm_ros2__cpp
+[3.199s] [ 10%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__description.c.o[0m
+[3.199s] [ 12%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__functions.c.o[0m
+[3.199s] [ 14%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[3.200s] [ 19%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__description.c.o[0m
+[3.200s] [ 19%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__functions.c.o[0m
+[3.200s] [ 21%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[3.232s] [ 23%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_c.so[0m
+[3.256s] [ 23%] Built target sfm_ros2__rosidl_generator_c
+[3.263s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.263s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.263s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.263s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.263s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.264s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.444s] [ 38%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[3.445s] [ 40%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[3.446s] [ 44%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/link__type_support.cpp.o[0m
+[3.446s] [ 44%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/link__type_support.cpp.o[0m
+[3.453s] [ 46%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/map_graph__type_support.cpp.o[0m
+[3.455s] [ 48%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/link__type_support.cpp.o[0m
+[3.456s] [ 51%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[3.457s] [ 53%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[3.470s] [ 55%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_c.so[0m
+[3.476s] [ 57%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/link__type_support.cpp.o[0m
+[3.477s] [ 59%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/map_graph__type_support_c.cpp.o[0m
+[3.477s] [ 61%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o[0m
+[3.478s] [ 63%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/link__type_support_c.cpp.o[0m
+[3.495s] [ 65%] [32m[1mLinking C shared library libsfm_ros2__rosidl_typesupport_introspection_c.so[0m
+[3.496s] [ 65%] Built target sfm_ros2__rosidl_typesupport_c
+[3.524s] [ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_c
+[3.618s] [ 68%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_cpp.so[0m
+[3.644s] [ 68%] Built target sfm_ros2__rosidl_typesupport_cpp
+[3.658s] [ 70%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[3.699s] [ 72%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[3.741s] [ 74%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[3.745s] [ 74%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp
+[3.773s] [ 74%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c
+[3.811s] [ 76%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.859s] [ 76%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp
+[3.871s] [ 76%] Built target sfm_ros2
+[3.883s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.141s] [ 78%] Built target sfm_ros2__py
+[4.155s] [ 80%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_map_graph_s.c.o[0m
+[4.155s] [ 82%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_link_s.c.o[0m
+[4.240s] [ 85%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_py.so[0m
+[4.270s] [ 85%] Built target sfm_ros2__rosidl_generator_py
+[4.284s] [ 87%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.284s] [ 89%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.284s] [ 91%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[4.346s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so[0m
+[4.346s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so[0m
+[4.347s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.364s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_c
+[4.365s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c
+[4.365s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c
+[8.030s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[8.031s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:65:46:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Image[m[K’?
+[8.031s]    65 |     message_filters::Subscriber<sensor_msgs::[01;31m[KImage[m[K> rgbImage_;
+[8.031s]       |                                              [01;31m[K^~~~~[m[K
+[8.031s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[8.031s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:9[m[K:
+[8.031s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:212:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Image[m[K’ declared here
+[8.031s]   212 | using [01;36m[KImage[m[K =
+[8.031s]       |       [01;36m[K^~~~~[m[K
+[8.041s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:65:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.041s]    65 |     message_filters::Subscriber<sensor_msgs::Image[01;31m[K>[m[K rgbImage_;
+[8.041s]       |                                                   [01;31m[K^[m[K
+[8.042s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:66:46:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Image[m[K’?
+[8.043s]    66 |     message_filters::Subscriber<sensor_msgs::[01;31m[KImage[m[K> depthMap_;
+[8.043s]       |                                              [01;31m[K^~~~~[m[K
+[8.043s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:212:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Image[m[K’ declared here
+[8.043s]   212 | using [01;36m[KImage[m[K =
+[8.043s]       |       [01;36m[K^~~~~[m[K
+[8.043s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:66:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.043s]    66 |     message_filters::Subscriber<sensor_msgs::Image[01;31m[K>[m[K depthMap_;
+[8.043s]       |                                                   [01;31m[K^[m[K
+[8.043s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:67:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraInfo[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::CameraInfo[m[K’?
+[8.043s]    67 |     message_filters::Subscriber<sensor_msgs::[01;31m[KCameraInfo[m[K> cameraIntrensics_;
+[8.043s]       |                                              [01;31m[K^~~~~~~~~~[m[K
+[8.043s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:7[m[K,
+[8.043s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:10[m[K:
+[8.044s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:273:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo[m[K’ declared here
+[8.044s]   273 | using [01;36m[KCameraInfo[m[K =
+[8.044s]       |       [01;36m[K^~~~~~~~~~[m[K
+[8.044s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.044s]    67 |     message_filters::Subscriber<sensor_msgs::CameraInfo[01;31m[K>[m[K cameraIntrensics_;
+[8.044s]       |                                                        [01;31m[K^[m[K
+[8.044s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:68:43:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Knav_msgs::msg::Odometry[m[K’?
+[8.044s]    68 |     message_filters::Subscriber<nav_msgs::[01;31m[KOdometry[m[K> cameraExtrensics_;
+[8.044s]       |                                           [01;31m[K^~~~~~~~[m[K
+[8.044s] In file included from [01m[K/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[8.044s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:12[m[K:
+[8.044s] [01m[K/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:176:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Odometry[m[K’ declared here
+[8.044s]   176 | using [01;36m[KOdometry[m[K =
+[8.044s]       |       [01;36m[K^~~~~~~~[m[K
+[8.044s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:68:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.044s]    68 |     message_filters::Subscriber<nav_msgs::Odometry[01;31m[K>[m[K cameraExtrensics_;
+[8.044s]       |                                                   [01;31m[K^[m[K
+[8.047s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krcppl[m[K’ does not name a type
+[8.047s]    72 |     [01;31m[Krcppl[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr sfmCloud_;
+[8.047s]       |     [01;31m[K^~~~~[m[K
+[8.072s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+[8.072s]    74 |     rclcpp::Publisher<[01;31m[Kvisualization_msgs[m[K::msg::Marker>::SharedPtr sfmMapGraph_;
+[8.072s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.072s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.072s]    74 |     rclcpp::Publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K::SharedPtr sfmMapGraph_;
+[8.072s]       |                                                      [01;31m[K^[m[K
+[8.072s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.073s]    74 |     rclcpp::Publisher<visualization_msgs::msg::Marker>::[01;31m[KSharedPtr[m[K sfmMapGraph_;
+[8.073s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[8.073s]       |                                                                  [32m[K;[m[K
+[8.078s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:67:[m[K [01;31m[Kerror: [m[K‘[01m[KsfmMapGraph_[m[K’ does not name a type
+[8.078s]    74 |     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr [01;31m[KsfmMapGraph_[m[K;
+[8.078s]       |                                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[8.078s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:75:42:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[8.078s]    75 |     void sfmCallBack_(const sensor_msgs::[01;31m[KImage[m[K::ConstPtr& rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.078s]       |                                          [01;31m[K^~~~~[m[K
+[8.078s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:75:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[8.078s]    75 |     void sfmCallBack_(const sensor_msgs::Image::ConstPtr[01;31m[K&[m[K rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.078s]       |                                                         [01;31m[K^[m[K
+[8.078s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:75:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[8.078s]    75 |     void sfmCallBack_[34m[K([m[Kconst sensor_msgs::Image::ConstPtr[01;31m[K&[m[K rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.078s]       |                      [34m[K~[m[K                                  [01;31m[K^[m[K
+[8.078s]       |                                                         [32m[K)[m[K
+[8.078s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:75:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.078s]    75 |     void sfmCallBack_(const sensor_msgs::Image::ConstPtr[01;31m[K&[m[K rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.079s]       |                                                         [01;31m[K^[m[K
+[8.079s]       |                                                          [32m[K;[m[K
+[8.079s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:75:59:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb[m[K’ does not name a type
+[8.079s]    75 |     void sfmCallBack_(const sensor_msgs::Image::ConstPtr& [01;31m[Krgb[m[K, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.079s]       |                                                           [01;31m[K^~~[m[K
+[8.079s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:76:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::Odometry[m[K’ has not been declared
+[8.079s]    76 |     Eigen::Matrix4f poseToTransform_([01;31m[Knav_msgs[m[K::Odometry pose);
+[8.079s]       |                                      [01;31m[K^~~~~~~~[m[K
+[8.082s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:79:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[8.082s]    79 |     geometry_msgs::[01;31m[KPoseStamped[m[K navToGeoStampMsg_(const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.082s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[8.082s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[8.082s]    83 |     geometry_msgs::[01;31m[KPose[m[K navToGeoMsg_(const nav_msgs::Odometry::ConstPtr& cameraExtrensics);
+[8.083s]       |                    [01;31m[K^~~~[m[K
+[8.117s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K In constructor ‘[01m[KsemanticSfm::[01;32m[KsemanticSfm[m[K(rclcpp::Node::SharedPtr)[m[K’:
+[8.117s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::shared_ptr<message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > > >::shared_ptr(semanticSfm::sfmSyncPolicy_, int&, int&, int&, int&)[m[K’
+[8.118s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;31m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.118s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.118s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[8.118s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[8.118s]                  from [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:5[m[K:
+[8.118s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:463:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Args = _Alloc; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.118s]   463 |         [01;36m[Kshared_ptr[m[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
+[8.118s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.118s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:463:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.118s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::_Sp_alloc_shared_tag<_Tp>[m[K’
+[8.118s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.118s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.118s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:395:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; <template-parameter-2-3> = _Del; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.119s]   395 |         [01;36m[Kshared_ptr[m[K(unique_ptr<_Yp, _Del>&& __r)
+[8.119s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.119s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:395:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.119s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[8.119s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.119s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.119s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:387:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Yp = _Tp1; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.119s]   387 |         [01;36m[Kshared_ptr[m[K(auto_ptr<_Yp>&& __r);
+[8.119s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.119s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:387:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.119s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[8.119s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.119s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.119s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:380:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::weak_ptr<_Yp>&) [35m[K[with <template-parameter-2-2> = _Yp; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.119s]   380 |         explicit [01;36m[Kshared_ptr[m[K(const weak_ptr<_Yp>& __r)
+[8.120s]       |                  [01;36m[K^~~~~~~~~~[m[K
+[8.120s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:380:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.120s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::weak_ptr<_Tp>[m[K’
+[8.120s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.120s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.120s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:368:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::shared_ptr<_Yp>&&) [35m[K[with <template-parameter-2-2> = _Yp; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.120s]   368 |         [01;36m[Kshared_ptr[m[K(shared_ptr<_Yp>&& __r) noexcept
+[8.120s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.120s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:368:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.120s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[8.120s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.120s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.120s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:351:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::shared_ptr<_Yp>&) [35m[K[with <template-parameter-2-2> = _Yp; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.120s]   351 |         [01;36m[Kshared_ptr[m[K(const shared_ptr<_Yp>& __r) noexcept
+[8.120s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.120s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:351:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.121s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[8.121s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.121s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.121s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:311:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::shared_ptr<_Yp>&, element_type*) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.121s]   311 |         [01;36m[Kshared_ptr[m[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept
+[8.121s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.121s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:311:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.121s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  ‘[01m[KsemanticSfm::sfmSyncPolicy_[m[K’ {aka ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[8.121s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.121s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.121s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:287:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::nullptr_t, _Deleter, _Alloc) [35m[K[with _Alloc = _Deleter; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.121s]   287 |         [01;36m[Kshared_ptr[m[K(nullptr_t __p, _Deleter __d, _Alloc __a)
+[8.121s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.121s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:287:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.122s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[8.122s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.122s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.122s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:268:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(_Yp*, _Deleter, _Alloc) [35m[K[with _Deleter = _Yp; _Alloc = _Deleter; <template-parameter-2-4> = _Alloc; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.122s]   268 |         [01;36m[Kshared_ptr[m[K(_Yp* __p, _Deleter __d, _Alloc __a)
+[8.122s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.122s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:268:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.122s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Yp*[m[K’ and ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’
+[8.122s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.122s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.122s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:248:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::nullptr_t, _Deleter) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.122s]   248 |         [01;36m[Kshared_ptr[m[K(nullptr_t __p, _Deleter __d)
+[8.122s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.122s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:248:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.122s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 5 provided
+[8.122s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.123s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.123s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:231:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(_Yp*, _Deleter) [35m[K[with _Deleter = _Yp; <template-parameter-2-3> = _Deleter; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.123s]   231 |         [01;36m[Kshared_ptr[m[K(_Yp* __p, _Deleter __d)
+[8.123s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.123s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:231:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.123s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Yp*[m[K’ and ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’
+[8.123s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.123s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.123s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:214:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(_Yp*) [35m[K[with <template-parameter-2-2> = _Yp; _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.123s]   214 |         [01;36m[Kshared_ptr[m[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }
+[8.123s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.123s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:214:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.123s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:70:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Yp*[m[K’ and ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’
+[8.123s]     4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node): node_(node), [01;36m[Ksync_(sfmSyncPolicy_(2), rgbImage_, depthMap_, cameraIntrensics_, cameraExtrensics_)[m[K,
+[8.123s]       |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.123s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:535:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::weak_ptr<_Tp>&, std::nothrow_t) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.124s]   535 |       [01;36m[Kshared_ptr[m[K(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept
+[8.124s]       |       [01;36m[K^~~~~~~~~~[m[K
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:535:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 5 provided
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:412:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::nullptr_t) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >; std::nullptr_t = std::nullptr_t][m[K[m[K’
+[8.124s]   412 |       constexpr [01;36m[Kshared_ptr[m[K(nullptr_t) noexcept : shared_ptr() { }
+[8.124s]       |                 [01;36m[K^~~~~~~~~~[m[K
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:412:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:359:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.124s]   359 |       [01;36m[Kshared_ptr[m[K(shared_ptr&& __r) noexcept
+[8.124s]       |       [01;36m[K^~~~~~~~~~[m[K
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:359:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:204:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.124s]   204 |       [01;36m[Kshared_ptr[m[K(const shared_ptr&) noexcept = default; ///< Copy constructor
+[8.124s]       |       [01;36m[K^~~~~~~~~~[m[K
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:204:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:202:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K() [35m[K[with _Tp = message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K[m[K’
+[8.124s]   202 |       constexpr [01;36m[Kshared_ptr[m[K() noexcept : __shared_ptr<_Tp>() { }
+[8.124s]       |                 [01;36m[K^~~~~~~~~~[m[K
+[8.124s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:202:17:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 5 provided
+[8.132s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsfmCloud_[m[K’ was not declared in this scope
+[8.132s]    17 |     [01;31m[KsfmCloud_[m[K =
+[8.132s]       |     [01;31m[K^~~~~~~~~[m[K
+[8.146s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsfmMapGraph_[m[K’ was not declared in this scope
+[8.146s]    23 |     [01;31m[KsfmMapGraph_[m[K =
+[8.146s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.152s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:24:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksfm[m[K’ was not declared in this scope
+[8.152s]    24 |         node_->create_publisher<[01;31m[Ksfm[m[K::msg::MapGraph>("sfm/MapGraph", 1);
+[8.152s]       |                                 [01;31m[K^~~[m[K
+[8.152s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:24:16:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.152s]    24 |         node_->[01;31m[Kcreate_publisher<sfm::msg::MapGraph>[m[K("sfm/MapGraph", 1);
+[8.152s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.152s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:24:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [13], int)[m[K’
+[8.152s]    24 |         [01;31m[Knode_->create_publisher<sfm::msg::MapGraph>("sfm/MapGraph", 1)[m[K;
+[8.152s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[8.152s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[8.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[8.153s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[8.153s]    73 | [01;36m[KNode[m[K::create_publisher(
+[8.153s]       | [01;36m[K^~~~[m[K
+[8.153s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.153s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:24:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.153s]    24 |         [01;31m[Knode_->create_publisher<sfm::msg::MapGraph>("sfm/MapGraph", 1)[m[K;
+[8.153s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[8.153s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:26:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((semanticSfm*)this)->semanticSfm::rgbImage_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.153s]    26 |     rgbImage_.[01;31m[Ksubscribe[m[K(node_.get(), rgb_topic_);
+[8.153s]       |               [01;31m[K^~~~~~~~~[m[K
+[8.153s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:27:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((semanticSfm*)this)->semanticSfm::depthMap_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.153s]    27 |     depthMap_.[01;31m[Ksubscribe[m[K(node_.get(), depth_topic_);
+[8.153s]       |               [01;31m[K^~~~~~~~~[m[K
+[8.153s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:28:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((semanticSfm*)this)->semanticSfm::cameraIntrensics_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.154s]    28 |     cameraIntrensics_.[01;31m[Ksubscribe[m[K(node_.get(), intrensics_topic_);
+[8.154s]       |                       [01;31m[K^~~~~~~~~[m[K
+[8.154s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:29:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((semanticSfm*)this)->semanticSfm::cameraExtrensics_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.154s]    29 |     cameraExtrensics_.[01;31m[Ksubscribe[m[K(node_.get(), extrensics_topic_);
+[8.154s]       |                       [01;31m[K^~~~~~~~~[m[K
+[8.154s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:31:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > > > >[m[K’ has no member named ‘[01m[KregisterCallback[m[K’
+[8.154s]    31 |     sync_.[01;31m[KregisterCallback[m[K(
+[8.154s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.157s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K At global scope:
+[8.157s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:45:17:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Matrix4f semanticSfm::poseToTransform_[m[K’ is not a static data member of ‘[01m[Kclass semanticSfm[m[K’
+[8.157s]    45 | Eigen::Matrix4f [01;31m[KsemanticSfm[m[K::poseToTransform_(nav_msgs::Odometry pose)
+[8.158s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[8.158s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:45:57:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Knav_msgs::msg::Odometry[m[K’?
+[8.158s]    45 | Eigen::Matrix4f semanticSfm::poseToTransform_(nav_msgs::[01;31m[KOdometry[m[K pose)
+[8.158s]       |                                                         [01;31m[K^~~~~~~~[m[K
+[8.159s] [01m[K/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:176:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Odometry[m[K’ declared here
+[8.159s]   176 | using [01;36m[KOdometry[m[K =
+[8.159s]       |       [01;36m[K^~~~~~~~[m[K
+[8.159s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:46:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[8.159s]    46 | [01;31m[K{[m[K
+[8.159s]       | [01;31m[K^[m[K
+[8.159s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:81:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[8.159s]    81 | geometry_msgs::[01;31m[KPoseStamped[m[K semanticSfm::navToGeoStampMsg_(const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.159s]       |                [01;31m[K^~~~~~~~~~~[m[K
+[8.161s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K In member function ‘[01m[Kcv::Mat semanticSfm::[01;32m[KforwardPass_[m[K(cv::Mat)[m[K’:
+[8.161s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:104:25:[m[K [01;31m[Kerror: [m[K‘[01m[KThreshold[m[K’ is not a member of ‘[01m[Ktorch::nn[m[K’
+[8.161s]   104 |     auto m = torch::nn::[01;31m[KThreshold[m[K(0.6, 0);
+[8.161s]       |                         [01;31m[K^~~~~~~~~[m[K
+[8.164s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K At global scope:
+[8.164s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:128:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[8.164s]   128 | geometry_msgs::[01;31m[KPose[m[K semanticSfm::navToGeoMsg_(const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.164s]       |                [01;31m[K^~~~[m[K
+[8.164s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:135:51:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[8.164s]   135 | void semanticSfm::sfmCallBack_(const sensor_msgs::[01;31m[KImage[m[K::ConstPtr& rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.164s]       |                                                   [01;31m[K^~~~~[m[K
+[8.164s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:135:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[8.164s]   135 | void semanticSfm::sfmCallBack_(const sensor_msgs::Image::ConstPtr[01;31m[K&[m[K rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.164s]       |                                                                  [01;31m[K^[m[K
+[8.164s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:135:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[8.164s]   135 | void semanticSfm::sfmCallBack_[34m[K([m[Kconst sensor_msgs::Image::ConstPtr[01;31m[K&[m[K rgb, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.165s]       |                               [34m[K~[m[K                                  [01;31m[K^[m[K
+[8.165s]       |                                                                  [32m[K)[m[K
+[8.165s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:135:68:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Krgb[m[K’
+[8.165s]   135 | void semanticSfm::sfmCallBack_(const sensor_msgs::Image::ConstPtr& [01;31m[Krgb[m[K, const sensor_msgs::Image::ConstPtr& depthMap, const sensor_msgs::CameraInfo::ConstPtr& cameraIntrensics, const nav_msgs::Odometry::ConstPtr& cameraExtrensics)
+[8.165s]       |                                                                    [01;31m[K^~~[m[K
+[8.165s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[8.165s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:217:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[8.165s]   217 |         [01;31m[Kros[m[K::init(argc, argv, "sfm");
+[8.165s]       |         [01;31m[K^~~[m[K
+[8.165s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:218:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[8.165s]   218 |         [01;31m[Kros[m[K::NodeHandle nh;
+[8.165s]       |         [01;31m[K^~~[m[K
+[8.168s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:54:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+[8.168s]   219 |         semanticSfm* semanticSfm_ = new semanticSfm(&[01;31m[Knh[m[K);
+[8.168s]       |                                                      [01;31m[K^~[m[K
+[8.168s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:220:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[8.168s]   220 |         [01;31m[Kros[m[K::MultiThreadedSpinner spinner(12);
+[8.168s]       |         [01;31m[K^~~[m[K
+[8.172s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:221:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kspinner[m[K’ was not declared in this scope
+[8.172s]   221 |     [01;31m[Kspinner[m[K.spin();
+[8.172s]       |     [01;31m[K^~~~~~~[m[K
+[8.172s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsemanticSfm_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.172s]   219 |         semanticSfm* [01;35m[KsemanticSfm_[m[K = new semanticSfm(&nh);
+[8.172s]       |                      [01;35m[K^~~~~~~~~~~~[m[K
+[10.759s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[10.759s] gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2
+[10.760s] gmake: *** [Makefile:146: all] Error 2
+[10.763s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

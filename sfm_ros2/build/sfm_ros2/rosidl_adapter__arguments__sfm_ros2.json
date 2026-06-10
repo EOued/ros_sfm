@@ -1,0 +1,7 @@
+{
+  "package_name": "sfm_ros2",
+  "non_idl_tuples": [
+    "/home/elioowo/ros_sfm/sfm_ros2:msg/MapGraph.msg",
+    "/home/elioowo/ros_sfm/sfm_ros2:msg/Link.msg"
+  ]
+}

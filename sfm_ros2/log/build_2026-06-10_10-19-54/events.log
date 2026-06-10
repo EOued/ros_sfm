@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (sfm_ros2) JobQueued: {'identifier': 'sfm_ros2', 'dependencies': OrderedDict()}
+[0.000751] (sfm_ros2) JobStarted: {'identifier': 'sfm_ros2'}
+[0.006403] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'cmake'}
+[0.006761] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/elioowo/ros_sfm/sfm_ros2', '-DCMAKE_INSTALL_PREFIX=/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.054375] (sfm_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.100041] (-) TimerEvent: {}
+[0.106553] (sfm_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.118673] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200338] (-) TimerEvent: {}
+[0.227132] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.236828] (sfm_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.236941] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.237156] (sfm_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.245400] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300515] (-) TimerEvent: {}
+[0.347333] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.354858] (sfm_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.355140] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.355450] (sfm_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.358994] (sfm_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400591] (-) TimerEvent: {}
+[0.475743] (sfm_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500751] (-) TimerEvent: {}
+[0.601007] (-) TimerEvent: {}
+[0.616077] (sfm_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization \n'}
+[0.651516] (sfm_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.659722] (sfm_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[0.701188] (-) TimerEvent: {}
+[0.708463] (sfm_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[0.709208] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[0.709295] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.744875] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[0.744987] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.747078] (sfm_ros2) StdoutLine: {'line': b'-- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  \n'}
+[0.768679] (sfm_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[0.795475] (sfm_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[0.801337] (-) TimerEvent: {}
+[0.826385] (sfm_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901570] (-) TimerEvent: {}
+[0.915943] (sfm_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.916930] (sfm_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.919511] (sfm_ros2) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.928205] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.001737] (-) TimerEvent: {}
+[1.089385] (sfm_ros2) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.089685] (sfm_ros2) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.091901] (sfm_ros2) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.101889] (-) TimerEvent: {}
+[1.136799] (sfm_ros2) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.202058] (-) TimerEvent: {}
+[1.250139] (sfm_ros2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.250277] (sfm_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.302258] (-) TimerEvent: {}
+[1.335695] (sfm_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.335855] (sfm_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.402439] (-) TimerEvent: {}
+[1.431564] (sfm_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.431698] (sfm_ros2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.502572] (-) TimerEvent: {}
+[1.542895] (sfm_ros2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.543025] (sfm_ros2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.602690] (-) TimerEvent: {}
+[1.615268] (sfm_ros2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.615662] (sfm_ros2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.702795] (-) TimerEvent: {}
+[1.722487] (sfm_ros2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.722704] (sfm_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.803008] (-) TimerEvent: {}
+[1.822075] (sfm_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.903111] (-) TimerEvent: {}
+[1.937074] (sfm_ros2) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[1.940411] (sfm_ros2) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.943279] (sfm_ros2) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") \n'}
+[1.945018] (sfm_ros2) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") \n'}
+[1.955300] (sfm_ros2) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.968917] (sfm_ros2) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  \n'}
+[1.972219] (sfm_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") \n'}
+[1.975771] (sfm_ros2) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.003278] (-) TimerEvent: {}
+[2.103581] (-) TimerEvent: {}
+[2.204722] (-) TimerEvent: {}
+[2.276868] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.277102] (sfm_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[2.283330] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[2.283430] (sfm_ros2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[2.283473] (sfm_ros2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[2.283512] (sfm_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[2.283549] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.283585] (sfm_ros2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[2.283620] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.283659] (sfm_ros2) StderrLine: {'line': b'    /usr\n'}
+[2.283694] (sfm_ros2) StderrLine: {'line': b'\n'}
+[2.283728] (sfm_ros2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[2.283763] (sfm_ros2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[2.283795] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.283827] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[2.283858] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[2.283892] (sfm_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[2.283924] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[2.283956] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.283989] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.284162] (sfm_ros2) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[2.288616] (sfm_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.304869] (-) TimerEvent: {}
+[2.405128] (-) TimerEvent: {}
+[2.505405] (-) TimerEvent: {}
+[2.605684] (-) TimerEvent: {}
+[2.705948] (-) TimerEvent: {}
+[2.806239] (-) TimerEvent: {}
+[2.906579] (-) TimerEvent: {}
+[3.006873] (-) TimerEvent: {}
+[3.107121] (-) TimerEvent: {}
+[3.207414] (-) TimerEvent: {}
+[3.307707] (-) TimerEvent: {}
+[3.324460] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.329191] (sfm_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.407885] (-) TimerEvent: {}
+[3.508165] (-) TimerEvent: {}
+[3.608452] (-) TimerEvent: {}
+[3.623248] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.623912] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.624107] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.624743] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.624929] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.625504] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.625627] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.626223] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.626332] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.627006] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.627115] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.627730] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.627871] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.628472] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.628636] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.628778] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[3.628883] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.629553] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.629711] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.630559] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.630705] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.631360] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.631473] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.631650] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[3.631732] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.632402] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.632486] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.633157] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.633349] (sfm_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.633993] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.634452] (sfm_ros2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_surface;pcl_filters;pcl_features;pcl_registration;pcl_sample_consensus;pcl_ml;pcl_segmentation;pcl_visualization;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[3.653889] (sfm_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.653991] (sfm_ros2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (torch) does\n'}
+[3.654030] (sfm_ros2) StderrLine: {'line': b'  not match the name of the calling package (Torch).  This can lead to\n'}
+[3.654066] (sfm_ros2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[3.654102] (sfm_ros2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.654136] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.654169] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)\n'}
+[3.654202] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:26 (find_package)\n'}
+[3.654234] (sfm_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.654267] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.654300] (sfm_ros2) StdoutLine: {'line': b'-- Found torch: /home/elioowo/libraries/libtorch/lib/libtorch.so  \n'}
+[3.656416] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.662347] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.704600] (sfm_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.708608] (-) TimerEvent: {}
+[3.747514] (sfm_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.808781] (-) TimerEvent: {}
+[3.909042] (-) TimerEvent: {}
+[3.975304] (sfm_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[3.975445] (sfm_ros2) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name sfm_ros2\n'}
+[3.975497] (sfm_ros2) StderrLine: {'line': b'  --arguments-file\n'}
+[3.975540] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_adapter__arguments__sfm_ros2.json\n'}
+[3.975721] (sfm_ros2) StderrLine: {'line': b'  --output-dir\n'}
+[3.975788] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_adapter/sfm_ros2\n'}
+[3.975834] (sfm_ros2) StderrLine: {'line': b'  --output-file\n'}
+[3.975875] (sfm_ros2) StderrLine: {'line': b'  /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_adapter/sfm_ros2.idls)\n'}
+[3.975920] (sfm_ros2) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.975959] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.976003] (sfm_ros2) StderrLine: {'line': b"  Error processing 'geometry_msgs/Transform mapToOdom' of\n"}
+[3.976043] (sfm_ros2) StderrLine: {'line': b"  'sfm_ros2/MapGraph': ''mapToOdom' is an invalid field name.  It should have\n"}
+[3.976084] (sfm_ros2) StderrLine: {'line': b"  the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[3.976123] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.976164] (sfm_ros2) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.976203] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.976242] (sfm_ros2) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[3.976282] (sfm_ros2) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[3.976326] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.976366] (sfm_ros2) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.976404] (sfm_ros2) StderrLine: {'line': b'               ^^^^^^\n'}
+[3.976442] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.976481] (sfm_ros2) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.976521] (sfm_ros2) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[3.976569] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[3.976609] (sfm_ros2) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[3.976647] (sfm_ros2) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[3.976685] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[3.976724] (sfm_ros2) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[3.976762] (sfm_ros2) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[3.976801] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[3.976840] (sfm_ros2) StderrLine: {'line': b'      fields.append(Field(\n'}
+[3.976879] (sfm_ros2) StderrLine: {'line': b'                    ^^^^^^\n'}
+[3.976918] (sfm_ros2) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__\n'}
+[3.976956] (sfm_ros2) StderrLine: {'line': b'      raise NameError(\n'}
+[3.976994] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.977035] (sfm_ros2) StderrLine: {'line': b"  NameError: 'mapToOdom' is an invalid field name.  It should have the\n"}
+[3.977074] (sfm_ros2) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[3.977113] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.977152] (sfm_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.977191] (sfm_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[3.977229] (sfm_ros2) StderrLine: {'line': b'  CMakeLists.txt:33 (rosidl_generate_interfaces)\n'}
+[3.977266] (sfm_ros2) StderrLine: {'line': b'\n'}
+[3.977304] (sfm_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.977342] (sfm_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.990758] (sfm_ros2) CommandEnded: {'returncode': 1}
+[4.009283] (sfm_ros2) JobEnded: {'identifier': 'sfm_ros2', 'rc': 1}
+[4.009573] (-) TimerEvent: {}
+[4.020107] (-) EventReactorShutdown: {}

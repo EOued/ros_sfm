@@ -1,0 +1,24 @@
+In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:5:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    5 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:642: CMakeFiles/sfm.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+    with include_path.open('r') as include_file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2/rosidl_generator_type_description/sfm_ros2/msg/Header.json'
+gmake[2]: *** [CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/build.make:77: rosidl_generator_type_description/sfm_ros2/msg/MapGraph.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:236: CMakeFiles/sfm_ros2__rosidl_generator_type_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

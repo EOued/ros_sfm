@@ -1,0 +1,155 @@
+[0.007s] Invoking command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32
+[0.027s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.182s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.183s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.271s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.281s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.307s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.325s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.328s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.332s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.365s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.365s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.365s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.365s]   cmake_policy command to set the policy and suppress this warning.
+[0.365s] 
+[0.365s]   CMake variable FLANN_ROOT is set to:
+[0.365s] 
+[0.365s]     /usr
+[0.365s] 
+[0.365s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.365s]   .cmake module might still use it.
+[0.365s] Call Stack (most recent call first):
+[0.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.365s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.365s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.365s]   CMakeLists.txt:18 (find_package)
+[0.365s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.366s] [0m
+[0.366s] -- Found flann version 1.9.2
+[0.676s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.680s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.011s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.015s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.315s] -- Found Qhull version 8.0.2
+[1.611s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.922s] [33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):
+[1.922s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.922s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.922s]   command to set the policy and suppress this warning.
+[1.922s] 
+[1.922s]   CMake variable PCL_ROOT is set to:
+[1.922s] 
+[1.922s]     /usr
+[1.922s] 
+[1.922s]   For compatibility, CMake is ignoring the variable.
+[1.922s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.922s] [0m
+[1.945s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.945s]   The package name passed to `find_package_handle_standard_args` (torch) does
+[1.945s]   not match the name of the calling package (Torch).  This can lead to
+[1.945s]   problems in calling code that expects `find_package` result variables
+[1.945s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.945s] Call Stack (most recent call first):
+[1.945s]   /home/elioowo/libraries/libtorch/share/cmake/Torch/TorchConfig.cmake:103 (find_package_handle_standard_args)
+[1.945s]   CMakeLists.txt:29 (find_package)
+[1.945s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.945s] [0m
+[1.945s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.952s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.179s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.495s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.670s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.747s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.756s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.759s] -- Configuring done (2.7s)
+[2.808s] -- Generating done (0.0s)
+[2.819s] -- Build files have been written to: /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2
+[2.852s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.853s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.857s] [  4%] Built target ament_cmake_python_copy_sfm_ros2
+[2.997s] running egg_info
+[3.011s] writing sfm_ros2.egg-info/PKG-INFO
+[3.011s] writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+[3.011s] writing top-level names to sfm_ros2.egg-info/top_level.txt
+[3.015s] [  4%] Built target sfm_ros2__rosidl_generator_type_description
+[3.021s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.027s] [  6%] Built target sfm_ros2__rs
+[3.027s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.050s] reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[3.050s] writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[3.069s] [  8%] Built target ament_cmake_python_build_sfm_ros2_egg
+[3.237s] [  8%] Built target sfm_ros2__cpp
+[3.256s] [ 10%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__description.c.o[0m
+[3.256s] [ 12%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__functions.c.o[0m
+[3.256s] [ 14%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[3.256s] [ 17%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__description.c.o[0m
+[3.257s] [ 19%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__functions.c.o[0m
+[3.257s] [ 21%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_c.dir/rosidl_generator_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[3.290s] [ 23%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_c.so[0m
+[3.317s] [ 23%] Built target sfm_ros2__rosidl_generator_c
+[3.326s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.326s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.326s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.327s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.327s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.327s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.518s] [ 38%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[3.519s] [ 40%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfm_ros2/msg/link__type_support.cpp.o[0m
+[3.520s] [ 42%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/map_graph__type_support.cpp.o[0m
+[3.520s] [ 44%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfm_ros2/msg/link__type_support.cpp.o[0m
+[3.527s] [ 46%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/map_graph__type_support.cpp.o[0m
+[3.529s] [ 48%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfm_ros2/msg/detail/link__type_support.cpp.o[0m
+[3.533s] [ 51%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/map_graph__type_support.c.o[0m
+[3.534s] [ 53%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfm_ros2/msg/detail/link__type_support.c.o[0m
+[3.547s] [ 55%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o[0m
+[3.548s] [ 57%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_c.so[0m
+[3.548s] [ 59%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfm_ros2/msg/detail/dds_fastrtps/link__type_support.cpp.o[0m
+[3.551s] [ 61%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/map_graph__type_support_c.cpp.o[0m
+[3.551s] [ 63%] [32mBuilding CXX object CMakeFiles/sfm_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfm_ros2/msg/detail/link__type_support_c.cpp.o[0m
+[3.565s] [ 65%] [32m[1mLinking C shared library libsfm_ros2__rosidl_typesupport_introspection_c.so[0m
+[3.573s] [ 65%] Built target sfm_ros2__rosidl_typesupport_c
+[3.586s] [ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_c
+[3.694s] [ 68%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_cpp.so[0m
+[3.721s] [ 68%] Built target sfm_ros2__rosidl_typesupport_cpp
+[3.735s] [ 70%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[3.782s] [ 72%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[3.817s] [ 74%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[3.829s] [ 74%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp
+[3.850s] [ 74%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c
+[3.873s] [ 76%] [32m[1mLinking CXX shared library libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.921s] [ 76%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp
+[3.933s] [ 76%] Built target sfm_ros2
+[3.945s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.214s] [ 78%] Built target sfm_ros2__py
+[4.227s] [ 80%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_map_graph_s.c.o[0m
+[4.227s] [ 82%] [32mBuilding C object CMakeFiles/sfm_ros2__rosidl_generator_py.dir/rosidl_generator_py/sfm_ros2/msg/_link_s.c.o[0m
+[4.323s] [ 85%] [32m[1mLinking C shared library libsfm_ros2__rosidl_generator_py.so[0m
+[4.353s] [ 85%] Built target sfm_ros2__rosidl_generator_py
+[4.365s] [ 87%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.365s] [ 89%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.365s] [ 91%] [32mBuilding C object CMakeFiles/sfm_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[4.427s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so[0m
+[4.427s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so[0m
+[4.428s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.445s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_c
+[4.446s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c
+[4.446s] [ 97%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c
+[4.962s] In file included from [01m[K/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1[m[K:
+[4.962s] [01m[K/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:41:10:[m[K [01;31m[Kfatal error: [m[Kmsg/MapGraph.hpp: No such file or directory
+[4.962s]    41 | #include [01;31m[K<msg/MapGraph.hpp>[m[K
+[4.962s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.962s] compilation terminated.
+[4.982s] gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Error 1
+[4.982s] gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Error 2
+[4.983s] gmake: *** [Makefile:146: all] Error 2
+[4.985s] Invoked command in '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2 -- -j32 -l32

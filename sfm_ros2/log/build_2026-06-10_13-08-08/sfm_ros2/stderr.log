@@ -1,0 +1,449 @@
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp: In constructor ‘semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)’:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1: error: uninitialized reference member in ‘using rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&’ {aka ‘class std::shared_ptr<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&’} [-fpermissive]
+    4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node)
+      | ^~~~~~~~~~~
+In file included from /home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:1:
+/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:72:71: note: ‘rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmCloud_’ should be initialized
+   72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::ConstSharedPtr& sfmCloud_;
+      |                                                                       ^~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1: error: uninitialized reference member in ‘using rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > > >&’ {aka ‘class std::shared_ptr<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > > >&’} [-fpermissive]
+    4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node)
+      | ^~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:73:61: note: ‘rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmTrajectory_’ should be initialized
+   73 |     rclcpp::Publisher<nav_msgs::msg::Path>::ConstSharedPtr& sfmTrajectory_;
+      |                                                             ^~~~~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:4:1: error: uninitialized reference member in ‘using rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::ConstSharedPtr = class std::shared_ptr<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >&’ {aka ‘class std::shared_ptr<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >&’} [-fpermissive]
+    4 | semanticSfm::semanticSfm(rclcpp::Node::SharedPtr node)
+      | ^~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:74:65: note: ‘rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::ConstSharedPtr& semanticSfm::sfmMapGraph_’ should be initialized
+   74 |     rclcpp::Publisher<sfm_ros2::msg::MapGraph>::ConstSharedPtr& sfmMapGraph_;
+      |                                                                 ^~~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp: In member function ‘void semanticSfm::sfmCallBack_(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)’:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29: error: no matching function for call to ‘rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::publish(sensor_msgs::msg::PointCloud2&) const’
+  206 |     this->sfmCloud_->publish(finalCloud);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172,
+                 from /home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:5:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::PointCloud2_<std::allocator<void> >]’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64: note:   no known conversion for argument 1 from ‘sensor_msgs::msg::PointCloud2’ {aka ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >’} to ‘rclcpp::LoanedMessage<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> >&&’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37: note:   no known conversion for argument 1 from ‘sensor_msgs::msg::PointCloud2’ {aka ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >’} to ‘const rclcpp::SerializedMessage&’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]’
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44: note:   no known conversion for argument 1 from ‘sensor_msgs::msg::PointCloud2’ {aka ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >’} to ‘const rcl_serialized_message_t&’ {aka ‘const rcutils_uint8_array_s&’}
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  376 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/13/bits/move.h:37,
+                 from /usr/include/c++/13/bits/new_allocator.h:36,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33,
+                 from /usr/include/c++/13/bits/allocator.h:46,
+                 from /usr/include/c++/13/memory:65,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169:
+/usr/include/c++/13/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using std::enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]’:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3:   required by substitution of ‘template<class T> std::enable_if_t<(std::integral_constant<bool, false>::value && std::is_same<T, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::value), void> rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::publish(const T&) [with T = sensor_msgs::msg::PointCloud2_<std::allocator<void> >]’
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29:   required from here
+/usr/include/c++/13/type_traits:2610:11: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+ 2610 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  326 |   publish(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29: note:   ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >’
+  206 |     this->sfmCloud_->publish(finalCloud);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note: candidate: ‘std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::PointCloud2_<std::allocator<void> >]’ (near match)
+  296 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note:   passing ‘std::__shared_ptr_access<const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*’ {aka ‘const rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >*’} as ‘this’ argument discards qualifiers
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note: candidate: ‘template<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  242 |   publish(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:206:29: note:   ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >’
+  206 |     this->sfmCloud_->publish(finalCloud);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34: error: no matching function for call to ‘rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::publish(nav_msgs::msg::Path&) const’
+  211 |     this->sfmTrajectory_->publish(trajectory);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = nav_msgs::msg::Path_<std::allocator<void> >]’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64: note:   no known conversion for argument 1 from ‘nav_msgs::msg::Path’ {aka ‘nav_msgs::msg::Path_<std::allocator<void> >’} to ‘rclcpp::LoanedMessage<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> >&&’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37: note:   no known conversion for argument 1 from ‘nav_msgs::msg::Path’ {aka ‘nav_msgs::msg::Path_<std::allocator<void> >’} to ‘const rclcpp::SerializedMessage&’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]’
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44: note:   no known conversion for argument 1 from ‘nav_msgs::msg::Path’ {aka ‘nav_msgs::msg::Path_<std::allocator<void> >’} to ‘const rcl_serialized_message_t&’ {aka ‘const rcutils_uint8_array_s&’}
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  376 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  326 |   publish(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34: note:   ‘nav_msgs::msg::Path_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<nav_msgs::msg::Path_<std::allocator<void> > > >’
+  211 |     this->sfmTrajectory_->publish(trajectory);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note: candidate: ‘std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = nav_msgs::msg::Path_<std::allocator<void> >; MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = nav_msgs::msg::Path_<std::allocator<void> >]’ (near match)
+  296 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note:   passing ‘std::__shared_ptr_access<const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*’ {aka ‘const rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >*’} as ‘this’ argument discards qualifiers
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note: candidate: ‘template<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with MessageT = nav_msgs::msg::Path_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  242 |   publish(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:211:34: note:   ‘nav_msgs::msg::Path_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<nav_msgs::msg::Path_<std::allocator<void> > > >’
+  211 |     this->sfmTrajectory_->publish(trajectory);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32: error: no matching function for call to ‘rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >::publish(sfm_ros2::msg::MapGraph&) const’
+  219 |     this->sfmMapGraph_->publish(mapGraphMsg);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sfm_ros2::msg::MapGraph_<std::allocator<void> >]’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:414:64: note:   no known conversion for argument 1 from ‘sfm_ros2::msg::MapGraph’ {aka ‘sfm_ros2::msg::MapGraph_<std::allocator<void> >’} to ‘rclcpp::LoanedMessage<sfm_ros2::msg::MapGraph_<std::allocator<void> >, std::allocator<void> >&&’
+  414 |   publish(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:400:37: note:   no known conversion for argument 1 from ‘sfm_ros2::msg::MapGraph’ {aka ‘sfm_ros2::msg::MapGraph_<std::allocator<void> >’} to ‘const rclcpp::SerializedMessage&’
+  400 |   publish(const SerializedMessage & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:3: note: candidate: ‘void rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]’
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:394:44: note:   no known conversion for argument 1 from ‘sfm_ros2::msg::MapGraph’ {aka ‘sfm_ros2::msg::MapGraph_<std::allocator<void> >’} to ‘const rcl_serialized_message_t&’ {aka ‘const rcutils_uint8_array_s&’}
+  394 |   publish(const rcl_serialized_message_t & serialized_msg)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  376 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:376:3: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note: candidate: ‘template<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  326 |   publish(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:326:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32: note:   ‘sfm_ros2::msg::MapGraph_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >’
+  219 |     this->sfmMapGraph_->publish(mapGraphMsg);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note: candidate: ‘std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = sfm_ros2::msg::MapGraph_<std::allocator<void> >; MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> = void; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sfm_ros2::msg::MapGraph_<std::allocator<void> >]’ (near match)
+  296 |   publish(const T & msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:296:3: note:   passing ‘std::__shared_ptr_access<const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::element_type*’ {aka ‘const rclcpp::Publisher<sfm_ros2::msg::MapGraph_<std::allocator<void> > >*’} as ‘this’ argument discards qualifiers
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note: candidate: ‘template<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with MessageT = sfm_ros2::msg::MapGraph_<std::allocator<void> >; AllocatorT = std::allocator<void>]’
+  242 |   publish(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   ^~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:242:3: note:   template argument deduction/substitution failed:
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:219:32: note:   ‘sfm_ros2::msg::MapGraph_<std::allocator<void> >’ is not derived from ‘std::unique_ptr<T, std::default_delete<sfm_ros2::msg::MapGraph_<std::allocator<void> > > >’
+  219 |     this->sfmMapGraph_->publish(mapGraphMsg);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:47,
+                 from /opt/ros/jazzy/include/message_filters/message_filters/time_synchronizer.h:41,
+                 from /home/elioowo/ros_sfm/sfm_ros2/include/sfm/sfm.h:19:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h: In instantiation of ‘message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’:
+/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:298:31:   required from ‘message_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> > >]’
+/home/elioowo/ros_sfm/sfm_ros2/src/sfm.cpp:35:28:   required from here
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: no matching function for call to ‘message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M0ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M1ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M2ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M3ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M4ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M5ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M6ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M7ConstPtr&, const message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::CameraInfo_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::M8ConstPtr&>(std::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)’
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:14: note: candidate: ‘message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  170 |   Connection addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:170:89: note:   no known conversion for argument 1 from ‘std::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type’ to ‘const std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&’
+  170 |   Connection addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14: note: candidate: ‘template<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  180 |   Connection addCallback(void(*callback)(P0, P1))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 2)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:180:14: note: provided for ‘template<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  180 |   Connection addCallback(void(*callback)(P0, P1))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14: note: candidate: ‘template<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  186 |   Connection addCallback(void(*callback)(P0, P1, P2))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 3)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:186:14: note: provided for ‘template<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  186 |   Connection addCallback(void(*callback)(P0, P1, P2))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14: note: candidate: ‘template<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  192 |   Connection addCallback(void(*callback)(P0, P1, P2, P3))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 4)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:192:14: note: provided for ‘template<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  192 |   Connection addCallback(void(*callback)(P0, P1, P2, P3))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14: note: candidate: ‘template<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  198 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 5)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:198:14: note: provided for ‘template<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  198 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14: note: candidate: ‘template<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  204 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 6)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:204:14: note: provided for ‘template<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  204 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14: note: candidate: ‘template<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  210 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 7)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:210:14: note: provided for ‘template<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  210 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14: note: candidate: ‘template<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  216 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 8)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:216:14: note: provided for ‘template<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  216 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:14: note: candidate: ‘message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&; P3 = const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  222 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:222:32: note:   no known conversion for argument 1 from ‘std::_Bind_helper<false, const semanticSfm::semanticSfm(rclcpp::Node::SharedPtr)::<lambda(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&, const sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type’ to ‘void (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::CameraInfo_<std::allocator<void> > >&, const std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)’
+  222 |   Connection addCallback(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+      |                          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14: note: candidate: ‘template<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1), T*) [with P0 = T; P1 = P0; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  228 |   Connection addCallback(void(T::*callback)(P0, P1), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:228:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14: note: candidate: ‘template<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2), T*) [with P0 = T; P1 = P0; P2 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  234 |   Connection addCallback(void(T::*callback)(P0, P1, P2), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:234:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14: note: candidate: ‘template<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with P0 = T; P1 = P0; P2 = P1; P3 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  240 |   Connection addCallback(void(T::*callback)(P0, P1, P2, P3), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:240:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14: note: candidate: ‘template<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4), T*) [with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  246 |   Connection addCallback(void(T::*callback)(P0, P1, P2, P3, P4), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:246:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14: note: candidate: ‘template<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  252 |   Connection addCallback(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:252:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14: note: candidate: ‘template<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  258 |   Connection addCallback(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:258:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14: note: candidate: ‘template<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with P0 = T; P1 = P0; P2 = P1; P3 = P2; P4 = P3; P5 = P4; P6 = P5; P7 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  264 |   Connection addCallback(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:264:14: note:   candidate expects 2 arguments, 1 provided
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14: note: candidate: ‘template<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  270 |   Connection addCallback( C& callback)
+      |              ^~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14: note:   template argument deduction/substitution failed:
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:280:40: error: wrong number of template arguments (9, should be 1)
+  272 |     return addCallback<const M0ConstPtr&,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                      const M1ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  274 |                      const M2ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  275 |                      const M3ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  276 |                      const M4ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  277 |                      const M5ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  278 |                      const M6ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  279 |                      const M7ConstPtr&,
+      |                      ~~~~~~~~~~~~~~~~~~ 
+  280 |                      const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:270:14: note: provided for ‘template<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::CameraInfo_<std::allocator<void> >; M3 = nav_msgs::msg::Odometry_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]’
+  270 |   Connection addCallback( C& callback)
+      |              ^~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/sfm.dir/build.make:76: CMakeFiles/sfm.dir/src/sfm.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:644: CMakeFiles/sfm.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

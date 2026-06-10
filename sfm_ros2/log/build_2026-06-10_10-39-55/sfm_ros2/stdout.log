@@ -1,0 +1,11 @@
+[  2%] Built target sfm_ros2__rs
+[  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  6%] [32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o[0m
+[  6%] Built target ament_cmake_python_copy_sfm_ros2
+running egg_info
+writing sfm_ros2.egg-info/PKG-INFO
+writing dependency_links to sfm_ros2.egg-info/dependency_links.txt
+writing top-level names to sfm_ros2.egg-info/top_level.txt
+reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_sfm_ros2_egg

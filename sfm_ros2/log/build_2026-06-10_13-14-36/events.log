@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (sfm_ros2) JobQueued: {'identifier': 'sfm_ros2', 'dependencies': OrderedDict()}
+[0.000772] (sfm_ros2) JobStarted: {'identifier': 'sfm_ros2'}
+[0.007166] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'cmake'}
+[0.007257] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'build'}
+[0.007271] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', '--', '-j32', '-l32'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.041810] (sfm_ros2) StdoutLine: {'line': b'[  2%] Built target sfm_ros2__rosidl_generator_type_description\n'}
+[0.041994] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target sfm_ros2__rs\n'}
+[0.046774] (sfm_ros2) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_sfm_ros2\n'}
+[0.053928] (sfm_ros2) StdoutLine: {'line': b'[  6%] Built target sfm_ros2__cpp\n'}
+[0.054739] (sfm_ros2) StdoutLine: {'line': b'[ 23%] Built target sfm_ros2__rosidl_generator_c\n'}
+[0.067388] (sfm_ros2) StdoutLine: {'line': b'[ 31%] Built target sfm_ros2__rosidl_typesupport_c\n'}
+[0.068034] (sfm_ros2) StdoutLine: {'line': b'[ 40%] Built target sfm_ros2__rosidl_typesupport_introspection_c\n'}
+[0.068253] (sfm_ros2) StdoutLine: {'line': b'[ 57%] Built target sfm_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.068330] (sfm_ros2) StdoutLine: {'line': b'[ 57%] Built target sfm_ros2__rosidl_typesupport_fastrtps_c\n'}
+[0.068582] (sfm_ros2) StdoutLine: {'line': b'[ 65%] Built target sfm_ros2__rosidl_typesupport_introspection_cpp\n'}
+[0.068779] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2__rosidl_typesupport_cpp\n'}
+[0.079766] (sfm_ros2) StdoutLine: {'line': b'[ 74%] Built target sfm_ros2\n'}
+[0.091965] (sfm_ros2) StdoutLine: {'line': b'[ 76%] Built target sfm_ros2__py\n'}
+[0.099996] (-) TimerEvent: {}
+[0.100776] (sfm_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/sfm.dir/src/sfm.cpp.o\x1b[0m\n'}
+[0.105999] (sfm_ros2) StdoutLine: {'line': b'[ 85%] Built target sfm_ros2__rosidl_generator_py\n'}
+[0.119122] (sfm_ros2) StdoutLine: {'line': b'[ 89%] Built target sfm_ros2_s__rosidl_typesupport_c\n'}
+[0.119237] (sfm_ros2) StdoutLine: {'line': b'[ 93%] Built target sfm_ros2_s__rosidl_typesupport_fastrtps_c\n'}
+[0.119417] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target sfm_ros2_s__rosidl_typesupport_introspection_c\n'}
+[0.187547] (sfm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.200194] (-) TimerEvent: {}
+[0.200620] (sfm_ros2) StdoutLine: {'line': b'writing sfm_ros2.egg-info/PKG-INFO\n'}
+[0.200836] (sfm_ros2) StdoutLine: {'line': b'writing dependency_links to sfm_ros2.egg-info/dependency_links.txt\n'}
+[0.200887] (sfm_ros2) StdoutLine: {'line': b'writing top-level names to sfm_ros2.egg-info/top_level.txt\n'}
+[0.239867] (sfm_ros2) StdoutLine: {'line': b"reading manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[0.240121] (sfm_ros2) StdoutLine: {'line': b"writing manifest file 'sfm_ros2.egg-info/SOURCES.txt'\n"}
+[0.257255] (sfm_ros2) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_sfm_ros2_egg\n'}
+[0.300342] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.500947] (-) TimerEvent: {}
+[0.601261] (-) TimerEvent: {}
+[0.701556] (-) TimerEvent: {}
+[0.801862] (-) TimerEvent: {}
+[0.902151] (-) TimerEvent: {}
+[1.002454] (-) TimerEvent: {}
+[1.102769] (-) TimerEvent: {}
+[1.203091] (-) TimerEvent: {}
+[1.303438] (-) TimerEvent: {}
+[1.403762] (-) TimerEvent: {}
+[1.504085] (-) TimerEvent: {}
+[1.604407] (-) TimerEvent: {}
+[1.704713] (-) TimerEvent: {}
+[1.805047] (-) TimerEvent: {}
+[1.905377] (-) TimerEvent: {}
+[2.005699] (-) TimerEvent: {}
+[2.106031] (-) TimerEvent: {}
+[2.206365] (-) TimerEvent: {}
+[2.306696] (-) TimerEvent: {}
+[2.407034] (-) TimerEvent: {}
+[2.507347] (-) TimerEvent: {}
+[2.607677] (-) TimerEvent: {}
+[2.708000] (-) TimerEvent: {}
+[2.808313] (-) TimerEvent: {}
+[2.908643] (-) TimerEvent: {}
+[3.008971] (-) TimerEvent: {}
+[3.109282] (-) TimerEvent: {}
+[3.209610] (-) TimerEvent: {}
+[3.309952] (-) TimerEvent: {}
+[3.410275] (-) TimerEvent: {}
+[3.510580] (-) TimerEvent: {}
+[3.610913] (-) TimerEvent: {}
+[3.711259] (-) TimerEvent: {}
+[3.811586] (-) TimerEvent: {}
+[3.911915] (-) TimerEvent: {}
+[4.012251] (-) TimerEvent: {}
+[4.112572] (-) TimerEvent: {}
+[4.212901] (-) TimerEvent: {}
+[4.313243] (-) TimerEvent: {}
+[4.413572] (-) TimerEvent: {}
+[4.513902] (-) TimerEvent: {}
+[4.614220] (-) TimerEvent: {}
+[4.714528] (-) TimerEvent: {}
+[4.814788] (-) TimerEvent: {}
+[4.915088] (-) TimerEvent: {}
+[5.015437] (-) TimerEvent: {}
+[5.115679] (-) TimerEvent: {}
+[5.216068] (-) TimerEvent: {}
+[5.316260] (-) TimerEvent: {}
+[5.416474] (-) TimerEvent: {}
+[5.516779] (-) TimerEvent: {}
+[5.617023] (-) TimerEvent: {}
+[5.717315] (-) TimerEvent: {}
+[5.817627] (-) TimerEvent: {}
+[5.917941] (-) TimerEvent: {}
+[6.018236] (-) TimerEvent: {}
+[6.118540] (-) TimerEvent: {}
+[6.218874] (-) TimerEvent: {}
+[6.319201] (-) TimerEvent: {}
+[6.419432] (-) TimerEvent: {}
+[6.519666] (-) TimerEvent: {}
+[6.619874] (-) TimerEvent: {}
+[6.720198] (-) TimerEvent: {}
+[6.820434] (-) TimerEvent: {}
+[6.920662] (-) TimerEvent: {}
+[7.020893] (-) TimerEvent: {}
+[7.121098] (-) TimerEvent: {}
+[7.221286] (-) TimerEvent: {}
+[7.321482] (-) TimerEvent: {}
+[7.421701] (-) TimerEvent: {}
+[7.521912] (-) TimerEvent: {}
+[7.622128] (-) TimerEvent: {}
+[7.722338] (-) TimerEvent: {}
+[7.822551] (-) TimerEvent: {}
+[7.922842] (-) TimerEvent: {}
+[8.023051] (-) TimerEvent: {}
+[8.123278] (-) TimerEvent: {}
+[8.223482] (-) TimerEvent: {}
+[8.323686] (-) TimerEvent: {}
+[8.423897] (-) TimerEvent: {}
+[8.524099] (-) TimerEvent: {}
+[8.624327] (-) TimerEvent: {}
+[8.724573] (-) TimerEvent: {}
+[8.824801] (-) TimerEvent: {}
+[8.925100] (-) TimerEvent: {}
+[9.025352] (-) TimerEvent: {}
+[9.125584] (-) TimerEvent: {}
+[9.225806] (-) TimerEvent: {}
+[9.326018] (-) TimerEvent: {}
+[9.426238] (-) TimerEvent: {}
+[9.526548] (-) TimerEvent: {}
+[9.626854] (-) TimerEvent: {}
+[9.727183] (-) TimerEvent: {}
+[9.827446] (-) TimerEvent: {}
+[9.927707] (-) TimerEvent: {}
+[10.027909] (-) TimerEvent: {}
+[10.128101] (-) TimerEvent: {}
+[10.228333] (-) TimerEvent: {}
+[10.328556] (-) TimerEvent: {}
+[10.428781] (-) TimerEvent: {}
+[10.528983] (-) TimerEvent: {}
+[10.629173] (-) TimerEvent: {}
+[10.729403] (-) TimerEvent: {}
+[10.829641] (-) TimerEvent: {}
+[10.929834] (-) TimerEvent: {}
+[11.030062] (-) TimerEvent: {}
+[11.130290] (-) TimerEvent: {}
+[11.230516] (-) TimerEvent: {}
+[11.330727] (-) TimerEvent: {}
+[11.430960] (-) TimerEvent: {}
+[11.531194] (-) TimerEvent: {}
+[11.631403] (-) TimerEvent: {}
+[11.731603] (-) TimerEvent: {}
+[11.831801] (-) TimerEvent: {}
+[11.932045] (-) TimerEvent: {}
+[12.032268] (-) TimerEvent: {}
+[12.132490] (-) TimerEvent: {}
+[12.232710] (-) TimerEvent: {}
+[12.332937] (-) TimerEvent: {}
+[12.433165] (-) TimerEvent: {}
+[12.533393] (-) TimerEvent: {}
+[12.633586] (-) TimerEvent: {}
+[12.733805] (-) TimerEvent: {}
+[12.834023] (-) TimerEvent: {}
+[12.934248] (-) TimerEvent: {}
+[13.034479] (-) TimerEvent: {}
+[13.134770] (-) TimerEvent: {}
+[13.235057] (-) TimerEvent: {}
+[13.335330] (-) TimerEvent: {}
+[13.435528] (-) TimerEvent: {}
+[13.535739] (-) TimerEvent: {}
+[13.635932] (-) TimerEvent: {}
+[13.736156] (-) TimerEvent: {}
+[13.836354] (-) TimerEvent: {}
+[13.936571] (-) TimerEvent: {}
+[14.036845] (-) TimerEvent: {}
+[14.137126] (-) TimerEvent: {}
+[14.237411] (-) TimerEvent: {}
+[14.337698] (-) TimerEvent: {}
+[14.437991] (-) TimerEvent: {}
+[14.538271] (-) TimerEvent: {}
+[14.638492] (-) TimerEvent: {}
+[14.738681] (-) TimerEvent: {}
+[14.838874] (-) TimerEvent: {}
+[14.939168] (-) TimerEvent: {}
+[15.039368] (-) TimerEvent: {}
+[15.139559] (-) TimerEvent: {}
+[15.239759] (-) TimerEvent: {}
+[15.339997] (-) TimerEvent: {}
+[15.440287] (-) TimerEvent: {}
+[15.540511] (-) TimerEvent: {}
+[15.640856] (-) TimerEvent: {}
+[15.741196] (-) TimerEvent: {}
+[15.841439] (-) TimerEvent: {}
+[15.941771] (-) TimerEvent: {}
+[16.042013] (-) TimerEvent: {}
+[16.107184] (sfm_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sfm\x1b[0m\n'}
+[16.142160] (-) TimerEvent: {}
+[16.242370] (-) TimerEvent: {}
+[16.342671] (-) TimerEvent: {}
+[16.442996] (-) TimerEvent: {}
+[16.543302] (-) TimerEvent: {}
+[16.643512] (-) TimerEvent: {}
+[16.743725] (-) TimerEvent: {}
+[16.843984] (-) TimerEvent: {}
+[16.944331] (-) TimerEvent: {}
+[17.044609] (-) TimerEvent: {}
+[17.144844] (-) TimerEvent: {}
+[17.245056] (-) TimerEvent: {}
+[17.345294] (-) TimerEvent: {}
+[17.366557] (sfm_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[17.377913] (sfm_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[17.445384] (-) TimerEvent: {}
+[17.545591] (-) TimerEvent: {}
+[17.645837] (-) TimerEvent: {}
+[17.746082] (-) TimerEvent: {}
+[17.790220] (sfm_ros2) StdoutLine: {'line': b'[100%] Built target sfm\n'}
+[17.801332] (sfm_ros2) CommandEnded: {'returncode': 0}
+[17.801884] (sfm_ros2) JobProgress: {'identifier': 'sfm_ros2', 'progress': 'install'}
+[17.807541] (sfm_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2'], 'cwd': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'elioowo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elioowo', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/elioowo/ros_sfm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4315', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elioowo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1004.slice/user@1004.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elioowo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/OMEN-10:@/tmp/.ICE-unix/4283,unix/OMEN-10:/tmp/.ICE-unix/4283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e54a3fa6_a308_470f_a110_c80fc401f295', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1004', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1004/.mutter-Xwaylandauth.TAUHQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1004/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WLR_NO_HARDWARE_CURSORS': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elioowo/ros_sfm/sfm_ros2/build/sfm_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': ':/opt/pylon5/lib64/gentlproducer/gtl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.815251] (sfm_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.815394] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/rosidl_interfaces/sfm_ros2\n'}
+[17.815633] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.json\n'}
+[17.815714] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.json\n'}
+[17.815792] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.815897] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.815963] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.816052] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__functions.c\n'}
+[17.816118] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.h\n'}
+[17.816180] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__struct.h\n'}
+[17.816276] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.c\n'}
+[17.816341] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__struct.h\n'}
+[17.816401] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__functions.h\n'}
+[17.816473] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.c\n'}
+[17.816530] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__description.c\n'}
+[17.816588] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.h\n'}
+[17.816646] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__functions.c\n'}
+[17.816745] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__functions.h\n'}
+[17.816807] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__description.c\n'}
+[17.816865] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.816921] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/map_graph.h\n'}
+[17.816977] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/link.h\n'}
+[17.817059] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/library_path.sh\n'}
+[17.817119] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/library_path.dsv\n'}
+[17.817171] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_c.so\n'}
+[17.817245] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_c.so" to ""\n'}
+[17.817328] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.817405] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.817461] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.817547] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_fastrtps_c.h\n'}
+[17.817606] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[17.817660] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.817712] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[17.817792] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.817851] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.817932] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.817988] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.818043] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.hpp\n'}
+[17.818101] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__traits.hpp\n'}
+[17.818182] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__builder.hpp\n'}
+[17.818240] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.hpp\n'}
+[17.818295] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__struct.hpp\n'}
+[17.818370] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__traits.hpp\n'}
+[17.818424] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__builder.hpp\n'}
+[17.818477] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__struct.hpp\n'}
+[17.818555] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.818612] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/map_graph.hpp\n'}
+[17.818665] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/link.hpp\n'}
+[17.818721] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.818775] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.818828] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.818883] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/dds_fastrtps\n'}
+[17.818965] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.819021] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.819076] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.819130] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.819369] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.819460] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.819507] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.819547] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.819601] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_introspection_c.h\n'}
+[17.819646] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.c\n'}
+[17.819689] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.c\n'}
+[17.819733] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_introspection_c.h\n'}
+[17.819778] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.819822] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_c.so\n'}
+[17.819888] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.819933] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_c.so\n'}
+[17.819977] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_c.so" to ""\n'}
+[17.820022] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2\n'}
+[17.820066] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg\n'}
+[17.820111] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail\n'}
+[17.820156] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.820222] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/link__type_support.cpp\n'}
+[17.820270] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.820315] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2/sfm_ros2/msg/detail/map_graph__type_support.cpp\n'}
+[17.820374] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[17.820419] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.820463] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_cpp.so\n'}
+[17.820530] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[17.820576] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/pythonpath.sh\n'}
+[17.820627] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/pythonpath.dsv\n'}
+[17.820672] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info\n'}
+[17.820718] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[17.820785] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[17.820833] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[17.820879] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[17.820924] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2\n'}
+[17.820993] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so\n'}
+[17.821042] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/__init__.py\n'}
+[17.821102] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[17.821145] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg\n'}
+[17.821191] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph.py\n'}
+[17.821252] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link_s.c\n'}
+[17.821296] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph_s.c\n'}
+[17.821341] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link.py\n'}
+[17.821386] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/__init__.py\n'}
+[17.821430] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.821494] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.821538] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/_sfm_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.821580] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so\n'}
+[17.846175] (-) TimerEvent: {}
+[17.849719] (sfm_ros2) StdoutLine: {'line': b"Listing '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2'...\n"}
+[17.849815] (sfm_ros2) StdoutLine: {'line': b"Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/__init__.py'...\n"}
+[17.849858] (sfm_ros2) StdoutLine: {'line': b"Listing '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg'...\n"}
+[17.849896] (sfm_ros2) StdoutLine: {'line': b"Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/__init__.py'...\n"}
+[17.849932] (sfm_ros2) StdoutLine: {'line': b"Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_link.py'...\n"}
+[17.849968] (sfm_ros2) StdoutLine: {'line': b"Compiling '/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/msg/_map_graph.py'...\n"}
+[17.853618] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.853720] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.853763] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so\n'}
+[17.853904] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.853991] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so\n'}
+[17.854048] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/python3.12/site-packages/sfm_ros2/sfm_ros2_s__rosidl_typesupport_c.so" to ""\n'}
+[17.854086] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_py.so\n'}
+[17.854228] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/libsfm_ros2__rosidl_generator_py.so" to ""\n'}
+[17.854324] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/rust_packages/sfm_ros2\n'}
+[17.854369] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust\n'}
+[17.854435] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src\n'}
+[17.854487] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg.rs\n'}
+[17.854527] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/lib.rs\n'}
+[17.854564] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg\n'}
+[17.854600] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/src/msg/rmw.rs\n'}
+[17.854640] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/build.rs\n'}
+[17.854697] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/rust/Cargo.toml\n'}
+[17.854753] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.idl\n'}
+[17.854790] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.idl\n'}
+[17.854824] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/MapGraph.msg\n'}
+[17.854861] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/msg/Link.msg\n'}
+[17.854894] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/sfm_ros2/sfm\n'}
+[17.862585] (sfm_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/lib/sfm_ros2/sfm" to ""\n'}
+[17.862678] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include\n'}
+[17.862724] (sfm_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm_ros2\n'}
+[17.862762] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm\n'}
+[17.862799] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/include/sfm/sfm.h\n'}
+[17.862834] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/package_run_dependencies/sfm_ros2\n'}
+[17.862892] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/parent_prefix_path/sfm_ros2\n'}
+[17.862931] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/ament_prefix_path.sh\n'}
+[17.862967] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/ament_prefix_path.dsv\n'}
+[17.863002] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/path.sh\n'}
+[17.863042] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/environment/path.dsv\n'}
+[17.863077] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.bash\n'}
+[17.863132] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.sh\n'}
+[17.863169] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.zsh\n'}
+[17.863204] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/local_setup.dsv\n'}
+[17.863239] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/package.dsv\n'}
+[17.863272] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/ament_index/resource_index/packages/sfm_ros2\n'}
+[17.863327] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cExport.cmake\n'}
+[17.863381] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.863418] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.863474] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.863522] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_cppExport.cmake\n'}
+[17.863559] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.863615] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.863670] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.863708] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.863758] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cExport.cmake\n'}
+[17.863795] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.863844] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.863879] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.863929] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[17.863966] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.864012] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_pyExport.cmake\n'}
+[17.864056] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/export_sfm_ros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.864101] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.864147] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[17.864193] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.864234] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.864277] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.864321] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.864366] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.864412] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2Config.cmake\n'}
+[17.864456] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/cmake/sfm_ros2Config-version.cmake\n'}
+[17.864499] (sfm_ros2) StdoutLine: {'line': b'-- Installing: /home/elioowo/ros_sfm/sfm_ros2/install/sfm_ros2/share/sfm_ros2/package.xml\n'}
+[17.866059] (sfm_ros2) CommandEnded: {'returncode': 0}
+[17.881555] (sfm_ros2) JobEnded: {'identifier': 'sfm_ros2', 'rc': 0}
+[17.881866] (-) EventReactorShutdown: {}

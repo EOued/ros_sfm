@@ -1,0 +1,4 @@
+source;share/sfm_ros2/local_setup.bash
+source;share/sfm_ros2/local_setup.dsv
+source;share/sfm_ros2/local_setup.sh
+source;share/sfm_ros2/local_setup.zsh
