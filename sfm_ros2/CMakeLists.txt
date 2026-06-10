@@ -25,7 +25,7 @@ find_package(PCL REQUIRED COMPONENTS
 )
 
 # Torch
-list(APPEND CMAKE_PREFIX_PATH "/home/elioowo/libraries/libtorch")
+list(APPEND CMAKE_PREFIX_PATH "/app/libtorch")
 find_package(Torch REQUIRED)
 
 
